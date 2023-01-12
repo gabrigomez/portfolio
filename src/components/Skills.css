@@ -9,6 +9,8 @@
 
 .skills-card {
   width: 70%;
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 20px;
 }
 
 .skills-card h1 {
