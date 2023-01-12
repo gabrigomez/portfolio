@@ -1,0 +1,14 @@
+.navbar {
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+  z-index: 100;
+  transition: 0.32s ease-in-out
+}
+
+.navbar-logo {
+  width: 100px;
+  height: 100px;
+}
