@@ -4,7 +4,7 @@ import './Main.css';
 
 export const Main = () => {
   return (
-    <section className='main-container'>
+    <section className='main-container' id='home'>
       <div className='main-card'>
         <div className='main-info'>
           <h3>
