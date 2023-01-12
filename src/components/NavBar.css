@@ -6,6 +6,8 @@
   
   z-index: 100;
   transition: 0.32s ease-in-out;
+
+  background-color: #121212;
 }
 
 .navbar-container {
