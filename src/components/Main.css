@@ -2,13 +2,15 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url(https://wallpaperaccess.com/full/46497.png);
 }
 
 .main-card {
   display: flex;
-  padding-top: 100px;
+  padding: 200px 100px;
   width: 70%; 
+
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .main-gif {
