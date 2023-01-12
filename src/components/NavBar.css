@@ -5,7 +5,7 @@
   top: 0;
   
   z-index: 100;
-  transition: 0.32s ease-in-out
+  transition: 0.32s ease-in-out;
 }
 
 .navbar-container {
@@ -98,5 +98,5 @@
 
 .scrolled {
   padding: 0px 0;
-  background-color:  #121212;
+  background-color: #121212;
 }

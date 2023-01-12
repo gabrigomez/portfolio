@@ -3,6 +3,10 @@
   --primary: #0081C9;
 }
 
+* {
+  font-family: 'Rajdhani', sans-serif;
+}
+
 .App {
   text-align: center;
 }
