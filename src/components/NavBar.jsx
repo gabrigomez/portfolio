@@ -55,8 +55,8 @@ export const NavBar = () => {
           </div>
           <div className='navbar-social-icons'>
             <div className='social-icon'>
-              <a href="#"> <LinkedinLogo className='icon'/> </a>
-              <a href="#"> <GithubLogo className='icon'/> </a>
+              <a href="https://www.linkedin.com/in/gabrielgomes93/"> <LinkedinLogo className='icon'/> </a>
+              <a href="https://github.com/gabrigomez"> <GithubLogo className='icon'/> </a>
             </div>
           </div>
         </Navbar.Collapse>        
