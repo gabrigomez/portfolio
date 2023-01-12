@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  margin-top: 100px;
+  width: 70%;
+}
+
+.main-gif {
+  height: 400px;
+  width: 600px;
+
+  border: 1px solid rgba(255, 255, 255, 0.89);
+  border-radius: 70%;
+}

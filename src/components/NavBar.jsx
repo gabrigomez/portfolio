@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import logo from '../assets/coding.png';
+import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import './NavBar.css';
-import { GithubLogo, LinkedinLogo } from 'phosphor-react';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -30,7 +29,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container className='navbar-container'>
         <Navbar.Brand href='/' >
-          <img src={logo} alt="Logo" className='navbar-logo' />
+          <FinnTheHuman className='navbar-logo' />
         </Navbar.Brand>        
         <Navbar.Collapse id="basic-navbar-nav">
           <div className='navbar-sections'>
