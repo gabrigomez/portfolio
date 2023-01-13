@@ -10,7 +10,7 @@ export const Projects = () => {
             Projects
           </h1>
           <h3>
-            Estes são meus projetos pessoais
+            Estes são alguns dos meus projetos
           </h3>
         </div>
         <div className='project-info'>

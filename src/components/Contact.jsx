@@ -12,7 +12,7 @@ export const Contact = () => {
         </div>
         <div className='contact-info-container'>
           <h1>
-            Vamos conversar? Eu aguardo o seu contato!
+            Vamos conversar? Aguardo o seu contato!
           </h1>
           <div className='contact-info'>
             <div className='contact-email'>
@@ -23,11 +23,11 @@ export const Contact = () => {
             </div>
             <div className='contact-linkedin'>
               <LinkedinLogo className='contact-icon' />
-              <a href="">Linkedin</a>
+              <a href="https://www.linkedin.com/in/gabrielgomes93/">Linkedin</a>
             </div>
             <div className='contact-github'>
               <GithubLogo className='contact-icon'/>
-              <a href="Github">Github</a>
+              <a href="https://github.com/gabrigomez">Github</a>
             </div>
           </div>
         </div>
