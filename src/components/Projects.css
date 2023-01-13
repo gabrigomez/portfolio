@@ -13,7 +13,8 @@
   align-items: center;
   width: 70%;
 
-  border: 1px solid white;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.541);
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.562);
 }

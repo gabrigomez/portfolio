@@ -29,7 +29,17 @@
 }
 
 .main-info h1 {
-  font-size: 36px;
+  font-size: 34px;
+}
+
+.main-welcome {
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #000046 -5.91%, #0e5a6e 111.58%);
+
+  border: 1px solid #0083c99a;
+  font-size: 26px;
+  margin-bottom: 16px;
 }
 
 section h4 {

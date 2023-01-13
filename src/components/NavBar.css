@@ -13,6 +13,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-around;
+  padding: 8px;
 }
 
 .navbar-collapse {

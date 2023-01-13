@@ -7,7 +7,7 @@ export const Main = () => {
     <section className='main-container' id='home'>
       <div className='main-card'>
         <div className='main-info'>
-          <h3>
+          <h3 className='main-welcome'>
             Bem-vindo ao meu portfólio!
           </h3>
           <h1>
