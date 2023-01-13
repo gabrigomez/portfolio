@@ -1,6 +1,6 @@
 import { Envelope, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import React from 'react';
-import profile from '../assets/profile.jpg';
+import coding from '../assets/coding.gif';
 import './Contact.css';
 
 export const Contact = () => {
@@ -8,7 +8,7 @@ export const Contact = () => {
     <section className='contact-container' id='contact'>
       <div className='contact-card'>
         <div className='contact-image-container'>
-          <img className='contact-image' src={profile} alt="" />
+          <img className='contact-image' src={coding} alt="" />
         </div>
         <div className='contact-info-container'>
           <h1>

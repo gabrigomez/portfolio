@@ -14,9 +14,9 @@
   margin-bottom: 20px;
 }
 
-.main-gif {
-  height: 300px;
-  width: 500px;
+.main-image {
+  height: 297px;
+  width: 290px;
   border: 2px solid #0081C9;
   border-radius: 70%;
 }
@@ -29,7 +29,7 @@
 }
 
 .main-info h1 {
-  font-size: 34px;
+  font-size: 50px;
 }
 
 .main-welcome {

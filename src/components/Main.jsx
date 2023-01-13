@@ -1,5 +1,5 @@
 import React from 'react';
-import coding from '../assets/coding.gif';
+import profile from '../assets/profile.jpg';
 import './Main.css';
 
 export const Main = () => {
@@ -22,8 +22,8 @@ export const Main = () => {
         </div>
         <div>
           <img
-            className='main-gif' 
-            src={coding} 
+            className='main-image' 
+            src={profile} 
             alt="" />
         </div>
       </div>
