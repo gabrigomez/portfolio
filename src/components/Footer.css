@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+
+  padding: 10px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.253);
+  border-radius: 20px;
+}
+
+.footer-card p {
+  margin: 2px;
+  font-size: 14px;
+}
+
+.footer-image {
+  height: 100px;
+  width: 100px;
+}
