@@ -1,4 +1,8 @@
-.navbar {
+.apply-bg {
+  background-color: #121212;
+}
+
+nav {
   padding: 8px 0;
   position: fixed;
   width: 100%;
@@ -6,11 +10,9 @@
   
   z-index: 100;
   transition: 0.32s ease-in-out;
-
-  background-color: #121212;
 }
 
-.navbar-container {
+nav .container {
   display: flex;
   justify-content: space-around;
   padding: 8px;

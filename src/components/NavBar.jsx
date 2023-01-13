@@ -9,7 +9,7 @@ export const NavBar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if(window.screenY > 50) {
+      if(window.scrollY > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -20,14 +20,14 @@ export const NavBar = () => {
 
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-  
+   
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
 
   return (
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-      <Container className='navbar-container'>
+    <nav expand="md" className={scrolled ? 'apply-bg' : ""}>
+      <Container>
         <Navbar.Brand href='/' >
           <FinnTheHuman className='navbar-logo' />
         </Navbar.Brand>        
@@ -66,6 +66,6 @@ export const NavBar = () => {
           </div>
         </Navbar.Collapse>        
       </Container>
-    </Navbar>
+    </nav>
   )
 }
