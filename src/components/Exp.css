@@ -1,0 +1,11 @@
+.exp-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.exp-card {
+  width: 70%;
+  color: white;
+}
