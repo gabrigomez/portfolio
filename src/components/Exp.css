@@ -5,7 +5,51 @@
   margin-bottom: 20px;
 }
 
-.exp-card {
+.exp-card { 
   width: 70%;
   color: white;
+  padding: 60px;
+
+}
+
+.exp-gif {
+  height: 200px;
+  width: 350px;
+}
+
+.exp-info {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.exp-info-items {
+  display: flex;
+}
+
+.exp-image {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #0083c99a;
+}
+
+.exp-item {
+  padding: 20px;
+  margin: 4px;  
+}
+
+.exp-item h3 {
+  margin: 0px;
+}
+
+.exp-title {
+  margin-bottom: 40px;
+}
+
+.exp-title h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.exp-title h3 {
+  margin-top: 0px;
 }
