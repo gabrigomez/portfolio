@@ -36,6 +36,31 @@ export const Skills = () => {
         <Carousel responsive={responsive}>
           <div className='skills-item'>
             <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
+              alt=""
+              className='skill-img' 
+            />
+            <h3>Curso Técnico em Informática</h3>
+            <p>Concluído em 2014</p>                        
+          </div>
+          <div className='skills-item'>
+            <img src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+              alt=""
+              className='skill-img' 
+            />
+            <h3>The Complete Ruby on Rails Developer Course</h3>
+            <a href="https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/">Em andamento</a>
+          </div>
+          <div className='skills-item'>
+            <img src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+              alt=""
+              className='skill-img' 
+            />
+            <h3>Curso Web Moderno Completo com JavaScript 2020</h3>
+            <a href="https://www.udemy.com/certificate/UC-39998402-6d77-4454-9d43-926719ec4091/">Certificado</a>
+          </div>          
+          <div className='skills-item'>
+            <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
               className='skill-img' 
@@ -48,25 +73,25 @@ export const Skills = () => {
               alt=""
               className='skill-img' 
             />
-            <h3>Testes de aplicações modernas com Cypress</h3>
-            <a href="https://www.udemy.com/certificate/UC-19b74e53-8f2e-46d1-a19a-c56d64196add/">Certificado</a>
+            <h3>Entendendo Typescript</h3>
+            <a href="https://www.udemy.com/certificate/UC-0dce5ff9-7176-46b3-bf12-3a0253bff2af/">Certificado</a>
           </div>
           <div className='skills-item'>
             <img src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
               className='skill-img' 
             />
-            <h3>Testes de aplicações modernas com Cypress</h3>
-            <a href="https://www.udemy.com/certificate/UC-19b74e53-8f2e-46d1-a19a-c56d64196add/">Certificado</a>
+            <h3>Docker Completo do ZERO ao Avançado</h3>
+            <a href="https://www.udemy.com/certificate/UC-75b54042-1a9a-4703-a6dd-c03553950c23/">Certificado</a>
           </div>
           <div className='skills-item'>
-            <img src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
               alt=""
               className='skill-img' 
             />
-            <h3>Testes de aplicações modernas com Cypress</h3>
-            <a href="https://www.udemy.com/certificate/UC-19b74e53-8f2e-46d1-a19a-c56d64196add/">Certificado</a>
-          </div>
+            <h3>Licenciatura em Letras</h3>                        
+          </div>   
         </Carousel>;
       </div>
     </section>
