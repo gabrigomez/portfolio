@@ -25,8 +25,8 @@ export const Exp = () => {
                 className='exp-image' 
               />
               <h3>Adeptly</h3>
-              <p>Ago 2021 - Jan 2023</p>
-              <p>Front-end developer/Quality Assurance</p>
+              <p className='exp-year'>Ago 2021 - Jan 2023</p>
+              <p className='exp-function'>Front-end developer/Quality Assurance</p>
             </div>
             <div className='exp-item'>          
               <img 
@@ -35,8 +35,8 @@ export const Exp = () => {
                 className='exp-image' 
               />
               <h3>Tracklift</h3>
-              <p>Jun 2021 - Ago 2021</p>
-              <p>Front-end developer</p>
+              <p className='exp-year'>Jun 2021 - Ago 2021</p>
+              <p className='exp-function'>Front-end developer</p>
             </div>
           </div>
           <img

@@ -3,18 +3,30 @@
   width: 100%;
   justify-content: center;
   margin-bottom: 20px;
+
 }
 
-.exp-card { 
-  width: 70%;
+.exp-card {
+  display: flex;
+  flex-direction: column; 
+  width: 60%;
   color: white;
+  
   padding: 60px;
+  background-color: black;
+}
 
+.exp-function {
+  opacity: 0;
 }
 
 .exp-gif {
-  height: 200px;
+  height: 300px;
   width: 350px;
+  background-color: white;
+  border: 2px solid #0083c99a;
+
+  border-radius: 2%;
 }
 
 .exp-info {
@@ -24,17 +36,30 @@
 
 .exp-info-items {
   display: flex;
+  margin-right: 20px;
 }
 
 .exp-image {
-  height: 100px;
-  width: 100px;
   border: 2px solid #0083c99a;
+  height: 150px;
+  width: 150px;
 }
 
 .exp-item {
   padding: 20px;
-  margin: 4px;  
+  margin: 4px;
+  height: 350px;
+  width: 300px;  
+}
+
+.exp-item:hover {
+  background-color: rgb(17, 17, 17);
+  transition: 0.5s ease-in-out;
+}
+
+.exp-item:hover .exp-function {
+  opacity: 1;
+  transition: opacity 1000ms;
 }
 
 .exp-item h3 {
