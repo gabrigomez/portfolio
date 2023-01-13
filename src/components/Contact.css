@@ -1,0 +1,67 @@
+.contact-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+
+  border: 1px solid #0083c99a;
+  border-radius: 20px;
+  padding: 40px 40px;
+  margin: 20px 20px;  
+}
+
+.contact-icon {
+  font-size: 54px;
+  color: black;
+}
+
+.contact-image {
+  height: 297px;
+  width: 290px;
+  border: 2px solid #0083c99a;
+  border-radius: 80%;
+
+  margin-right: 10px;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+}
+
+.contact-info-container h1, .contact-email p {
+  margin: 0px;
+}
+
+.contact-info-container h1 {
+  font-size: 30px;
+}
+
+.contact-info a, .contact-info p {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-email, .contact-linkedin, .contact-github {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
+
+  margin: 4px;
+  padding: 4px;
+}
