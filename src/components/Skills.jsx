@@ -90,7 +90,8 @@ export const Skills = () => {
               alt=""
               className='skill-img' 
             />
-            <h3>Licenciatura em Letras</h3>                        
+            <h3>Licenciatura em Letras</h3>
+            <a href="https://www.udemy.com/certificate/UC-75b54042-1a9a-4703-a6dd-c03553950c23/">Concluído em 2020</a>                        
           </div>   
         </Carousel>;
       </div>

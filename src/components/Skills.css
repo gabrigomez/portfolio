@@ -64,11 +64,21 @@
 .skills-item a {
   text-decoration: none;
   color: white;
+  opacity: 0;
+}
+
+.skills-item p {
+  opacity: 0;
 }
 
 .skills-item:hover {
-  outline: 1px solid #0083c92f;
+  outline: 1px solid #0083c91e;
   border-radius: 40px;
+}
+
+.skills-item:hover p, .skills-item:hover a  {
+  opacity: 1;
+  transition: opacity 700ms;
 }
 
 .skills-item a:hover {
