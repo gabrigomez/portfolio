@@ -28,6 +28,10 @@ html {
   text-align: center;
 }
 
+.none {
+  opacity: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
