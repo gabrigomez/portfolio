@@ -23,12 +23,6 @@
   margin-top: 4px;
 }
 
-.exp-gif {
-  height: 250px;
-  width: 300px;
-  background-color: black;
-}
-
 .exp-info {
   display: flex;
   justify-content: center;  
@@ -36,7 +30,6 @@
 
 .exp-info-items {
   display: flex;
-  margin-right: 20px;
 }
 
 .exp-image {
@@ -46,14 +39,16 @@
 }
 
 .exp-item {
-  padding: 20px;
-  margin: 4px;
   height: 350px;
-  width: 300px;  
+  width: 250px;  
+  padding: 8px;
+  margin: 4px;
+
+  border-radius: 10px;
 }
 
 .exp-item:hover {
-  background-color: rgb(10, 10, 10);
+  background-color: rgba(10, 10, 10, 0.397);
   transition: 0.5s ease-in-out;
 }
 
