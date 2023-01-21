@@ -1,6 +1,7 @@
 :root {
   font-size: 16px;
   --primary: #0081C9;
+  --bg-color: rgba(0, 0, 0, 0.562);
 }
 
 * {
