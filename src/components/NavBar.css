@@ -2,6 +2,10 @@
   background-color: #000000;
 }
 
+.navbar-link.active {
+  color: var(--primary);
+}
+
 nav {
   padding: 8px 0;
   position: fixed;
