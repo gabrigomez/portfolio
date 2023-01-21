@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  width: 80%;
+  width: 50%;
 
   border: 1px solid #0083c99a;
   border-radius: 40px;
@@ -54,12 +54,13 @@
 .contact-info {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .contact-email, .contact-linkedin, .contact-github {
   display: flex;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.164);
+  border: 1px solid rgba(0, 0, 0, 0.048);
   border-radius: 20px;
 
   margin: 4px;
