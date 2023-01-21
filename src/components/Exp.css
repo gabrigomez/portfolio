@@ -24,12 +24,9 @@
 }
 
 .exp-gif {
-  height: 300px;
-  width: 350px;
-  background-color: white;
-  border: 2px solid #0083c99a;
-
-  border-radius: 2%;
+  height: 250px;
+  width: 300px;
+  background-color: black;
 }
 
 .exp-info {
@@ -60,7 +57,7 @@
   transition: 0.5s ease-in-out;
 }
 
-.exp-item:hover .exp-function {
+.exp-item:hover .exp-function, .exp-item:hover .exp-year {
   opacity: 1;
   transition: opacity 1000ms;
 }
@@ -80,4 +77,8 @@
 
 .exp-title h3 {
   margin-top: 0px;
+}
+
+.exp-year {
+  opacity: 0;
 }
