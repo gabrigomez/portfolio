@@ -28,17 +28,12 @@ export const NavBar = () => {
   return (
     <nav expand="md" className={scrolled ? 'apply-bg' : ""}>
       <Container>
-        <Navbar.Brand href='/' >
+        <Navbar.Brand className='home' href='#home' >
           <FinnTheHuman className='navbar-logo' />
+          <p>HOME</p>
         </Navbar.Brand>        
         <Navbar.Collapse id="basic-navbar-nav">
-          <div className='navbar-sections'>
-            <Nav.Link 
-              href="#home" 
-              className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} 
-              onClick={() => onUpdateActiveLink('home')}>
-                Home
-            </Nav.Link>
+          <div className='navbar-sections'>            
             <Nav.Link 
               href="#skills" 
               className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} 

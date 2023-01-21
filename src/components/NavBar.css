@@ -71,6 +71,28 @@ nav .container {
   color: var(--primary);
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.home:hover p {  
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.home:hover .navbar-logo {
+  color: white;
+}
+
+.home p {
+  color: var(--primary);
+  opacity: 0;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
 .social-icon a {
   width: 42px;
   height: 42px;
