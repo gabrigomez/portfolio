@@ -1,6 +1,5 @@
 import React from 'react';
 import './Exp.css';
-import beemo from '../assets/beemo.gif';
 import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
 
@@ -38,12 +37,7 @@ export const Exp = () => {
               <p className='exp-year'>Jun 2021 - Ago 2021</p>
               <p className='exp-function'>Front-end developer</p>
             </div>
-          </div>
-          <img
-            className='exp-gif' 
-            src={beemo} 
-            alt="" 
-          />
+          </div>          
         </div>
       </div>
     </section>
