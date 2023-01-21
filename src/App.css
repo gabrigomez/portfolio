@@ -24,6 +24,10 @@ html {
   scroll-padding-top: 100px;
 }
 
+section {
+  padding: 0 0 150px 0;
+}
+
 .App {
   text-align: center;
 }

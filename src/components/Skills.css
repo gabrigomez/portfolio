@@ -3,11 +3,9 @@
 }  
 
 .skills-container {
-  padding: 0 0 150px 0;
   display: flex;
   justify-content: center;
-  width: 100%;
-  
+  width: 100%;  
   margin-bottom: 20px;
 }
 
