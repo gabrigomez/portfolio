@@ -13,12 +13,11 @@ export const Main = () => {
           <h1>
             Olá! Eu sou Gabriel Gomes!
           </h1>
-          <h4>
-            Felis imperdiet proin fermentum leo vel orci porta. 
-            Purus faucibus ornare suspendisse sed nisi. 
-            Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. 
-            Aenean euismod elementum nisi quis eleifend. Cursus metus aliquam eleifend mi in.
-          </h4>        
+          <h3>
+            Sou apaixonado por tecnologia desde sempre e adoro saber como tudo funciona! Embora curta especialmente a parte
+            de desenvolvimento Front-end, me interesso por quase tudo relacionado ao mundo da programação. Busco estudar e praticar sempre que possível, 
+            afinal, a área de tecnologia é alimentada pelo movimento constante. Não dá pra ficar parado.
+          </h3>        
         </div>
         <div>
           <img
