@@ -1,12 +1,5 @@
 .react-multi-carousel-list {
   height: 75%;
-}  
-
-.skills-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;  
-  margin-bottom: 20px;
 }
 
 .skills-card {
@@ -24,6 +17,18 @@
 
 .skills-card h3 {
   color: white;
+  margin-bottom: 40px;
+}
+
+.skills-card h3, .skills-card h1 {
+  margin: 0px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+  margin-bottom: 20px;
 }
 
 .skill-img {
@@ -46,13 +51,6 @@
   margin: 6px;
 }
 
-.skills-card h3, .skills-card h1 {
-  margin: 0px;
-}
-
-.skills-card h3 {
-  margin-bottom: 40px;
-}
 
 .skills-item h3 {
   margin-bottom: 2px;

@@ -1,11 +1,3 @@
-.apply-bg {
-  background-color: #000000;
-}
-
-.navbar-link.active {
-  color: var(--primary);
-}
-
 nav {
   padding: 8px 0;
   position: fixed;
@@ -20,6 +12,39 @@ nav .container {
   display: flex;
   justify-content: space-around;
   padding: 8px;
+}
+
+.apply-bg {
+  background-color: #000000;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.home:hover p {  
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.home:hover .navbar-logo {
+  color: white;
+}
+
+.home p {
+  color: var(--primary);
+  opacity: 0;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 24px;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+  color: #fff;
 }
 
 .navbar-collapse {
@@ -37,9 +62,19 @@ nav .container {
   opacity: 0.6;
 }
 
+.navbar-link.active {
+  color: var(--primary);
+}
+
 .navbar-link:hover,
 .navbar-link:active {
   opacity: 1;
+  color: var(--primary);
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
   color: var(--primary);
 }
 
@@ -69,34 +104,6 @@ nav .container {
   align-items: center;
 }
 
-.navbar-logo {
-  width: 40px;
-  height: 40px;
-  color: var(--primary);
-}
-
-.home {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.home:hover p {  
-  opacity: 1;
-  transition: opacity 300ms;
-}
-
-.home:hover .navbar-logo {
-  color: white;
-}
-
-.home p {
-  color: var(--primary);
-  opacity: 0;
-  margin-left: 8px;
-  font-size: 16px;
-}
-
 .social-icon a {
   width: 42px;
   height: 42px;
@@ -115,13 +122,6 @@ nav .container {
 .social-icon a:hover {
   background-color: rgba(15, 14, 14, 0.151);
   border: 1px solid #000000c4;
-}
-
-.icon {
-  font-size: 24px;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
-  color: #fff;
 }
 
 .social-icon a:hover .icon {
