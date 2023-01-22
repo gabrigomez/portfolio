@@ -5,7 +5,7 @@ import './Main.css';
 export const Main = () => {
   return (
     <section className='main-container' id='home'>
-      <div className='main-card'>
+      <div className='main-card items-center'>
         <div className='main-info'>
           <h3 className='main-welcome'>
             Bem-vindo ao meu portfólio!
