@@ -32,7 +32,7 @@ export const NavBar = () => {
           <FinnTheHuman className='navbar-logo' />
           <p>HOME</p>
         </Navbar.Brand>        
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" >
           <div className='navbar-sections'>            
             <Nav.Link 
               href="#skills" 
