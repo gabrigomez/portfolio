@@ -6,7 +6,6 @@
 
   padding: 60px;
   border-radius: 20px;
-  background-color: var(--bg-color);
 }
 
 .projects-container {
@@ -16,6 +15,7 @@
   width: 100%;
 
   margin-bottom: 20px;
+  background-color: var(--bg-color);
 }
 
 .project-github-link {
