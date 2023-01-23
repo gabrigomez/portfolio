@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
 import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
-import './NavBar.css';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -26,47 +24,57 @@ export const NavBar = () => {
   };
 
   return (
-    <nav expand="md" className={scrolled ? 'apply-bg' : ""}>
-      <Container>
-        <Navbar.Brand className='home' href='#home' >
-          <FinnTheHuman className='navbar-logo' />
-          <p>HOME</p>
-        </Navbar.Brand>        
-        <Navbar.Collapse id="basic-navbar-nav" >
-          <div className='navbar-sections'>            
-            <Nav.Link 
+    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${scrolled ? 'bg-black' : ''}`}>
+      <div className='flex place-content-around p-2'>
+        <div 
+          className='flex items-center no-underline group cursor-pointer' href='#home'
+          onClick={() => onUpdateActiveLink('home')}>
+            <FinnTheHuman className='group-hover:text-white w-10 h-10 mr-2 text-primary' />
+            <p className='opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
+        </div>        
+        <div className='flex'>
+          <div className='flex items-center'>            
+            <div 
               href="#skills" 
-              className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} 
+              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('skills')}>
                 Skills
-            </Nav.Link>
-            <Nav.Link 
+            </div>
+            <div 
               href="#exp" 
-              className={activeLink === 'exp' ? 'active navbar-link' : 'navbar-link'} 
+              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('exp')}>
                 Exp
-            </Nav.Link>
-            <Nav.Link 
+            </div>
+            <div 
               href="#projects" 
-              className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} 
+              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('projects')}>
                 Projects
-            </Nav.Link>
-            <Nav.Link 
+            </div>
+            <div 
               href="#contact" 
-              className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} 
+              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('contact')}>
                 Contact
-            </Nav.Link>
-          </div>
-          <div className='navbar-social-icons'>
-            <div className='social-icon'>
-              <a href="https://www.linkedin.com/in/gabrielgomes93/"><LinkedinLogo className='icon'/></a>
-              <a href="https://github.com/gabrigomez"><GithubLogo className='icon'/></a>
             </div>
           </div>
-        </Navbar.Collapse>        
-      </Container>
+          <div className='flex items-center'>
+            <div>
+              <a 
+                href="https://www.linkedin.com/in/gabrielgomes93/" 
+                className='social-icon'>
+                  <LinkedinLogo className='text-2xl z-10 duration-300 ease-in-out text-white hover:scale-105 hover:text-primary'/>
+              </a>
+              <a 
+                href="https://github.com/gabrigomez"
+                className='social-icon'>
+                  <GithubLogo className='text-2xl z-10 duration-300 ease-in-out text-white hover:scale-105 hover:text-primary'/>
+              </a>
+            </div>
+          </div>
+        </div>        
+      </div>
     </nav>
   )
 }

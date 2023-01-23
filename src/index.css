@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .social-icon {
+    @apply w-10 h-10 bg-secondaryBg rounded-3xl mr-2 items-center justify-center inline-flex border border-white hover:bg-black duration-300 hover:scale-105
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
