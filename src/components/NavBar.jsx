@@ -22,7 +22,6 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
-  console.log(activeLink)
 
   return (
     <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${scrolled ? 'bg-black' : ''}`}>
