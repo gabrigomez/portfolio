@@ -22,42 +22,43 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
+  console.log(activeLink)
 
   return (
     <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around p-2'>
-        <div 
+        <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
           onClick={() => onUpdateActiveLink('home')}>
             <FinnTheHuman className='group-hover:text-white w-10 h-10 mr-2 text-primary' />
             <p className='opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
-        </div>        
+        </a>        
         <div className='flex'>
           <div className='flex items-center'>            
-            <div 
+            <a 
               href="#skills" 
               className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('skills')}>
                 Skills
-            </div>
-            <div 
+            </a>
+            <a
               href="#exp" 
               className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('exp')}>
                 Exp
-            </div>
-            <div 
+            </a>
+            <a 
               href="#projects" 
               className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('projects')}>
                 Projects
-            </div>
-            <div 
+            </a>
+            <a 
               href="#contact" 
               className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('contact')}>
                 Contact
-            </div>
+            </a>
           </div>
           <div className='flex items-center'>
             <div>
