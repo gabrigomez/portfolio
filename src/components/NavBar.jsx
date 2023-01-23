@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState('home');
+  const [setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
