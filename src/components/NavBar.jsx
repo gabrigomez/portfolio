@@ -30,37 +30,37 @@ export const NavBar = () => {
         <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
           onClick={() => onUpdateActiveLink('home')}>
-            <FinnTheHuman className='group-hover:text-white w-10 h-10 mr-2 text-primary' />
-            <p className='opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
+            <FinnTheHuman className='group-hover:text-white w-10 h-10 sm:mr-2 text-primary' />
+            <p className='hidden sm:block opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
         </a>        
         <div className='flex'>
           <div className='flex items-center'>            
             <a 
               href="#skills" 
-              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
+              className='text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('skills')}>
                 Skills
             </a>
             <a
               href="#exp" 
-              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
+              className='text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('exp')}>
                 Exp
             </a>
             <a 
               href="#projects" 
-              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
+              className='text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('projects')}>
                 Projects
             </a>
             <a 
               href="#contact" 
-              className='text-white px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
+              className='text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-50 hover:opacity-100 hover:text-white cursor-pointer' 
               onClick={() => onUpdateActiveLink('contact')}>
                 Contact
             </a>
           </div>
-          <div className='flex items-center'>
+          <div className='hidden sm:flex items-center'>
             <div>
               <a 
                 href="https://www.linkedin.com/in/gabrielgomes93/" 
