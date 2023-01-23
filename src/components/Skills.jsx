@@ -14,22 +14,22 @@ export const Skills = () => {
       items: 4
     },
     tablet: {
-      breakpoint: { max: 1024, min: 560 },
+      breakpoint: { max: 1024, min: 800 },
       items: 3
     },
     mobile: {
-      breakpoint: { max: 560, min: 0 },
+      breakpoint: { max: 800, min: 0 },
       items: 2
     }
   };
 
   return (
     <section className='flex justify-center w-full bg-primaryBg' id='skills'>
-      <div className='w-full sm:w-4/5 rounded-2xl p-2 sm:p-16 text-white'>
-        <h1 className='text-5xl sm:text-6xl mt-4'>
+      <div className='w-full md:w-4/5 rounded-2xl p-2 md:p-16 text-white'>
+        <h1 className='text-5xl md:text-6xl mt-4'>
           Skills
         </h1>
-        <h3 className='mb-10 sm:text-2xl'>
+        <h3 className='mb-10 md:text-2xl'>
           Aqui estão os meus cursos e certificações
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
@@ -37,7 +37,7 @@ export const Skills = () => {
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Curso Técnico em Informática</h3>
             <p className='opacity-0 group-hover:opacity-100 duration-500'>Concluído em 2014</p>                        
@@ -46,7 +46,7 @@ export const Skills = () => {
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>The Complete Ruby on Rails Developer Course</h3>
             <a 
@@ -59,7 +59,7 @@ export const Skills = () => {
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Curso Web Moderno Completo com JavaScript 2020</h3>
             <a 
@@ -72,7 +72,7 @@ export const Skills = () => {
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Testes de aplicações modernas com Cypress</h3>
             <a 
@@ -85,7 +85,7 @@ export const Skills = () => {
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Entendendo Typescript</h3>
             <a 
@@ -98,7 +98,7 @@ export const Skills = () => {
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Docker Completo do ZERO ao Avançado</h3>
             <a 
@@ -111,7 +111,7 @@ export const Skills = () => {
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
               alt=""
-              className='w-28 h-28 sm:w-44 sm:h-44 border-2 border-primary rounded-full mb-3' 
+              className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
             />
             <h3 className='text-lg mb-2 font-bold'>Licenciatura em Letras</h3>
             <p className='opacity-0 group-hover:opacity-100 duration-500'>Concluído em 2020</p>                        
