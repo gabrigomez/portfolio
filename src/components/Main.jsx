@@ -20,7 +20,7 @@ export const Main = () => {
         </div>
         <div className='flex justify-center'>
           <img
-            className='w-80 h-80 border-2 border-primary rounded-full mt-8' 
+            className='w-80 h-80 border-2 border-primary rounded-full mt-8 animate-updown' 
             src={profile} 
             alt="" />
         </div>
