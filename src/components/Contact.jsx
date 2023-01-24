@@ -18,7 +18,7 @@ export const Contact = () => {
           <div className='flex flex-col sm:w-2/4'>
             <div className='flex flex-col items-center mb-4 group'>
               <Envelope className='text-4xl group-hover:scale-125 duration-300'/>
-              <p className='text-xl md:text-2xl border-b-2 border-gray-200 hover:border-gray-300 duration-300'>
+              <p className='text-xl md:text-2xl hover:text-primary border-b-2 border-gray-200 hover:border-gray-300 duration-300'>
                 gabrigomez15@gmail.com
               </p>
             </div>
