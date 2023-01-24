@@ -6,7 +6,7 @@ import { GithubLogo } from 'phosphor-react';
 export const Projects = () => {
   return (
     <section className='flex flex-col items-center w-full h-[650px] mb-10 bg-primaryBg' id='projects'>      
-      <div className='flex flex-col items-center w-full p-2 md:p-16 rounded-2xl'>
+      <div className='flex flex-col items-center w-full p-2 mt-2 md:p-16 rounded-2xl'>
         <div className='mb-20 text-white'>
           <h1 className='text-4xl md:text-6xl'>
             Projetos

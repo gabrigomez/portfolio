@@ -7,7 +7,7 @@ import TrackVisibility from 'react-on-screen';
 export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-primaryBg' id='exp'>
-      <div className='flex flex-col w-full md:w-2/3 p-4 md:p-16 rounded-2xl text-white'>
+      <div className='flex flex-col w-full p-4 mt-2 md:w-2/3 md:p-16 rounded-2xl text-white'>
         <div className='mb-10'>
           <h1 className='text-4xl md:text-6xl mb-2'>
             Experiência

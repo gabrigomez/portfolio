@@ -25,8 +25,8 @@ export const Skills = () => {
 
   return (
     <section className='flex justify-center w-full bg-primaryBg' id='skills'>
-      <div className='w-full md:w-4/5 rounded-2xl p-2 md:p-16 text-white'>
-        <h1 className='text-5xl md:text-6xl mt-4'>
+      <div className='w-full md:w-4/5 rounded-2xl p-4 md:p-16 text-white'>
+        <h1 className='text-5xl md:text-6xl mt-2'>
           Skills
         </h1>
         <h3 className='mb-10 md:text-2xl'>
