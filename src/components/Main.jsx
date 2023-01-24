@@ -1,5 +1,7 @@
 import React from 'react';
 import profile from '../assets/profile.jpg';
+import { SiTypescript, SiCypress, SiTailwindcss, SiRubyonrails, SiReact, SiVuedotjs } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
 
 export const Main = () => {
   return (
@@ -23,6 +25,18 @@ export const Main = () => {
             className='w-72 h-72 sm:w-80 sm:h-80 border-2 border-primary rounded-full mt-8 animate-updown' 
             src={profile} 
             alt="" />
+        </div>
+        <div className='text-white mt-32'>
+          <p className='text-xl mb-4'>Tenho interesse especial em:</p>
+          <div className='flex justify-center'>
+           <SiReact className='text-4xl mr-2' />
+           <SiVuedotjs className='text-4xl mr-2' />
+           <FaNodeJs className='text-4xl mr-2' />
+           <SiTailwindcss className='text-4xl mr-2' />
+           <SiTypescript className='text-4xl mr-2' />           
+           <SiCypress className='text-4xl mr-2' />
+           <SiRubyonrails className='text-4xl mr-2' />
+          </div>
         </div>
       </div>
     </section>
