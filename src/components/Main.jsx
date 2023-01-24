@@ -2,6 +2,7 @@ import React from 'react';
 import profile from '../assets/profile.jpg';
 import { SiTypescript, SiCypress, SiTailwindcss, SiRubyonrails, SiReact, SiVuedotjs } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
+import TrackVisibility from 'react-on-screen';
 
 export const Main = () => {
   return (
@@ -28,15 +29,21 @@ export const Main = () => {
         </div>
         <div className='text-white mt-20'>
           <p className='text-xl mb-8'>Tenho interesse especial em:</p>
-          <div className='flex justify-center'>
-           <SiReact className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-           <SiVuedotjs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-           <FaNodeJs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-           <SiTailwindcss className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-           <SiTypescript className='text-4xl lg:text-6xl mr-2 lg:mr-6' />           
-           <SiCypress className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-           <SiRubyonrails className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
-          </div>
+          <TrackVisibility className='flex justify-center w-full'>
+            {({ isVisible }) =>
+            <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>
+              <div className='flex justify-center'>
+                <SiReact className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <SiVuedotjs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <FaNodeJs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <SiTailwindcss className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <SiTypescript className='text-4xl lg:text-6xl mr-2 lg:mr-6' />           
+                <SiCypress className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <SiRubyonrails className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+              </div>
+            </div>
+            }
+          </TrackVisibility>
         </div>
       </div>
     </section>
