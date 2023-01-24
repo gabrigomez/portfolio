@@ -25,11 +25,13 @@ export const Projects = () => {
                     alt=""
                     className='w-44 h-44 border-2 border-primary rounded-full mb-4' 
                   />
-                  <p className='opacity-0 group-hover:opacity-100 duration-700'>My classic games</p>
+                  <p className='text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+                    My classic games
+                  </p>
                   <a 
                     href="https://github.com/gabrigomez/my-classic-games"
                     className='flex justify-center'>
-                      <GithubLogo className='h-8 w-8 mt-4 opacity-0 group-hover:opacity-100 duration-200 text-center hover:text-primary'/>
+                      <GithubLogo className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 text-center hover:text-primary'/>
                   </a>                     
                 </div>
                 <div className='flex flex-col items-center m-2 p-2 h-54 w-2/4 md:w-64 duration-300 rounded-2xl hover:h-72 hover:bg-secondaryBg group'>
@@ -38,11 +40,13 @@ export const Projects = () => {
                     alt=""
                     className='w-44 h-44 border-2 border-primary rounded-full mb-4' 
                   />
-                  <p className='opacity-0 group-hover:opacity-100 duration-700'>Vue Login</p>            
+                  <p className='text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+                    Vue login
+                  </p>            
                   <a 
                     href="https://github.com/gabrigomez/login-page"
                     className='flex justify-center'>
-                      <GithubLogo className='h-8 w-8 mt-4 opacity-0 group-hover:opacity-100 duration-200 text-center hover:text-primary'/>
+                      <GithubLogo className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 text-center hover:text-primary'/>
                   </a>                       
                 </div>
               </div>
