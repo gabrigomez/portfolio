@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         primaryBg: 'rgba(0, 0, 0, 0.562)',
         secondaryBg: 'rgba(20, 20, 20, 0.514)',
-        primary: '#00337c',
+        primary: '#0055d0',
         secondary: '#1c82ad',
       },
       keyframes: {
