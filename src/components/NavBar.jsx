@@ -32,11 +32,11 @@ export const NavBar = () => {
         <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
           onClick={() => onUpdateActiveLink('home')}>
-            <FinnTheHuman className='text-primary dark:text-white opacity-70 group-hover:opacity-100 w-10 h-10 sm:mr-2' />
+            <FinnTheHuman className='text-primary dark:text-white opacity-70 group-hover:opacity-100 text-3xl xl:text-5xl sm:mr-2' />
             <p className='text-primary dark:text-white font-bold hidden sm:block opacity-90 group-hover:opacity-100 duration-300'>HOME</p>
         </a>
-        <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'}`} onClick={() => setTheme(!theme)} />
-        <BsMoonFill className={`text-primary cursor-pointer ${theme ? 'hidden' : ''}`} onClick={() => setTheme(!theme)} />        
+        <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />
+        <BsMoonFill className={`text-primary cursor-pointer ${theme ? 'hidden' : ''} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />        
         <div className='flex'>
           <div className='flex items-center'>            
             <a 
