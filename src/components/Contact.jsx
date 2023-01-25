@@ -1,5 +1,6 @@
-import { Envelope, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import React from 'react';
+import { i18n } from '../translate/i18n';
+import { Envelope, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import coding from '../assets/coding.gif';
 
 export const Contact = () => {
@@ -13,7 +14,7 @@ export const Contact = () => {
         </div>
         <div className='flex flex-col items-center justify-evenly ml-15'>
           <h1 className='text-4xl mb-4 font-bold'>
-            Aguardo o seu contato!
+            {i18n.t('contact.description')}
           </h1>
           <div className='flex flex-col sm:w-2/4'>
             <div className='flex flex-col items-center mb-4 group'>

@@ -24,6 +24,9 @@ export const messages = {
       },
       projects: {
         description: 'Estes são alguns dos meus projetos'
+      },
+      contact: {
+        description: 'Aguardo o seu contato!'
       }
     },
   },
