@@ -12,6 +12,10 @@ p {
   margin: 0px;
 }
 
+body {
+  max-height: 100vh;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
@@ -25,15 +29,4 @@ section {
   text-align: center;
 }
 
-.none {
-  opacity: 0;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

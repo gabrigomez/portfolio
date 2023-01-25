@@ -12,7 +12,7 @@ function App() {
   const { theme } = useTheme();
   
   return (
-    <div className={`App ${ theme ? 'bg-gradient-to-b from-gray-900 to-black' : 'bg-orange-100' }`}>
+    <div className={`App ${ theme ? 'bg-gradient-to-b from-gray-900 to-black' : 'bg-gradient-to-b from-gray-200 to-white' }`}>
       <NavBar/>
       <Main />
       <Skills />

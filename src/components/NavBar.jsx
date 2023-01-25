@@ -27,16 +27,16 @@ export const NavBar = () => {
   };
 
   return (
-    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${theme ? 'dark' : ''} ${scrolled ? 'bg-black' : ''}`}>
+    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around items-center p-2'>
         <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
           onClick={() => onUpdateActiveLink('home')}>
-            <FinnTheHuman className='group-hover:text-white w-10 h-10 sm:mr-2 text-primary dark:text-white' />
-            <p className='hidden sm:block opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
+            <FinnTheHuman className='group-hover:text-gray-400 w-10 h-10 sm:mr-2 text-primary dark:text-white' />
+            <p className='hidden sm:block opacity-60 group-hover:opacity-100 duration-300 text-secondary font-bold'>HOME</p>
         </a>
         <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'}`} onClick={() => setTheme(!theme)} />
-        <BsMoonFill className={`text-white cursor-pointer ${theme ? 'hidden' : ''}`} onClick={() => setTheme(!theme)} />        
+        <BsMoonFill className={`text-primary cursor-pointer ${theme ? 'hidden' : ''}`} onClick={() => setTheme(!theme)} />        
         <div className='flex'>
           <div className='flex items-center'>            
             <a 

@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         primaryBg: 'rgba(0, 0, 0, 0.562)',
         secondaryBg: 'rgba(20, 20, 20, 0.514)',
-        primary: '#0083c99a',
+        primary: '#00337c',
+        secondary: '#1c82ad',
       },
       keyframes: {
         updown: {
