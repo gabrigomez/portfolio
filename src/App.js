@@ -6,7 +6,7 @@ import { NavBar } from './components/NavBar';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import './App.css';
-import { useTheme } from './useTheme';
+import { useTheme } from './hooks/useTheme';
 
 function App() {
   const { theme } = useTheme();

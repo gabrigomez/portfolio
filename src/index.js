@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ThemeContextProvider from './useTheme';
-import LanguageContextProvider from './useLanguage';
+import ThemeContextProvider from './hooks/useTheme';
+import LanguageContextProvider from './hooks/useLanguage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

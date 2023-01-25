@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { i18n } from '../translate/i18n';
 import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import { BsMoonFill, BsSun } from 'react-icons/bs';
-import { useTheme } from '../useTheme';
-import { useLanguage } from '../useLanguage';
+import { useTheme } from '../hooks/useTheme';
+import { useLanguage } from '../hooks/useLanguage';
 
 import Brazil from '../assets/Brazil.png';
 import Usa from '../assets/usa.png'
