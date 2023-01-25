@@ -6,11 +6,13 @@ import { NavBar } from './components/NavBar';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import './App.css';
+import { useTheme } from './useTheme';
 
 function App() {
+  const { theme } = useTheme();
   
   return (
-    <div className="App">
+    <div className={`App ${ theme ? 'bg-gradient-to-b from-gray-900 to-black' : 'bg-orange-100' }`}>
       <NavBar/>
       <Main />
       <Skills />

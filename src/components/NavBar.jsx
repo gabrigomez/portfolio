@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
 import { BsMoonFill, BsSun } from 'react-icons/bs';
+import { useTheme } from '../useTheme';
 
 export const NavBar = () => {
   const [setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
     const onScroll = () => {
@@ -26,7 +27,7 @@ export const NavBar = () => {
   };
 
   return (
-    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${darkMode ? 'dark' : ''} ${scrolled ? 'bg-black' : ''}`}>
+    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ease-in-out ${theme ? 'dark' : ''} ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around items-center p-2'>
         <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
@@ -34,8 +35,8 @@ export const NavBar = () => {
             <FinnTheHuman className='group-hover:text-white w-10 h-10 sm:mr-2 text-primary dark:text-white' />
             <p className='hidden sm:block opacity-60 group-hover:opacity-100 duration-300 text-white'>HOME</p>
         </a>
-        <BsMoonFill className={`text-white cursor-pointer ${darkMode ? '' : 'hidden'}`} onClick={() => setDarkMode(!darkMode)} />
-        <BsSun className={`text-white cursor-pointer ${darkMode ? 'hidden' : ''}`} onClick={() => setDarkMode(!darkMode)} />        
+        <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'}`} onClick={() => setTheme(!theme)} />
+        <BsMoonFill className={`text-white cursor-pointer ${theme ? 'hidden' : ''}`} onClick={() => setTheme(!theme)} />        
         <div className='flex'>
           <div className='flex items-center'>            
             <a 

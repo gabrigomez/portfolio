@@ -8,16 +8,9 @@
   font-family: 'Rajdhani', sans-serif;
 }
 
-body {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #252525, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #252525, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 p {
   margin: 0px;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -25,8 +18,7 @@ html {
 }
 
 section {
-  margin-bottom: 150px;
-  padding: 0px 0px 50px 0px;
+  margin-bottom: 150px;  
 }
 
 .App {

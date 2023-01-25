@@ -1,13 +1,9 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 const ThemeContext = createContext();
 
 export default function ThemeContextProvider({children}) {
-  const [theme, setTheme] = useState();
-
-  useEffect(() => {
-
-  }); 
+  const [theme, setTheme] = useState(false);
 
   return (
     <ThemeContext.Provider value={({theme, setTheme})}>
