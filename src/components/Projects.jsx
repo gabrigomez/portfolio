@@ -1,6 +1,8 @@
 import React from 'react';
+import { i18n } from '../translate/i18n';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 import { GithubLogo } from 'phosphor-react';
 
 export const Projects = () => {
@@ -9,10 +11,10 @@ export const Projects = () => {
       <div className='flex flex-col items-center w-full p-2 mt-2 md:p-16 rounded-2xl'>
         <div className='mb-20 text-primary dark:text-white'>
           <h1 className='text-4xl md:text-6xl'>
-            Projetos
+            {i18n.t('titles.projects')}
           </h1>
-          <h3>
-            Estes são alguns dos meus projetos
+          <h3 className='md:text-2xl'>
+            {i18n.t('projects.description')}
           </h3>
         </div>
         <TrackVisibility className='flex justify-center w-full'>

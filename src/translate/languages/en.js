@@ -21,6 +21,9 @@ export const messages = {
       },
       exp: {
         description: 'This is my journey as a Dev (until now)'
+      },
+      projects: {
+        description: 'Here are some of my personal projects'
       }
     },
   },
