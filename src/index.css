@@ -4,6 +4,6 @@
 
 @layer components {
   .social-icon {
-    @apply w-10 h-10 bg-secondaryBg rounded-3xl mr-2 items-center justify-center inline-flex border border-white hover:bg-black duration-300 hover:scale-105
+    @apply w-10 h-10 bg-gray-600 rounded-3xl mr-2 items-center justify-center inline-flex border border-white hover:bg-black duration-300 hover:scale-105
   }
 }
