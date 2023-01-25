@@ -8,6 +8,14 @@ export const messages = {
         projects: 'Projetos',
         contact: 'Contato'
       },
+      main: {
+        banner: 'Bem vindo ao meu portfólio!',
+        title: 'Olá! Eu sou Gabriel Gomes',
+        info: `Sou apaixonado por tecnologia desde sempre e adoro saber como tudo funciona! Embora curta especialmente a parte
+        de desenvolvimento Front-end, me interesso por quase tudo relacionado ao mundo da programação. Busco estudar e praticar sempre que possível, 
+        afinal, a área de tecnologia é alimentada pelo movimento constante. Não dá pra ficar parado.`,
+        interests: 'Tenho interesse especial em:'
+      }
     },
   },
 };
