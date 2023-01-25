@@ -27,6 +27,10 @@ export const messages = {
       },
       contact: {
         description: 'Aguardo o seu contato!'
+      },
+      footer: {
+        title: 'desenvolvido por gabrigomez',
+        description: '2023 - Todos os direitos reservados'
       }
     },
   },

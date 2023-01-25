@@ -4,8 +4,8 @@ import TrackVisibility from 'react-on-screen';
 
 import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
-import 'animate.css';
 import { LinkedinLogo } from 'phosphor-react';
+import 'animate.css';
 
 export const Exp = () => {
   return (

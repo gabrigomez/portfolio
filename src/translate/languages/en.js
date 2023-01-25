@@ -27,6 +27,10 @@ export const messages = {
       },
       contact: {
         description: `I'm await your contact!`
+      },
+      footer: {
+        title: 'develop by gabrigomez',
+        description: '2023 - All rights reserved'
       }
     },
   },
