@@ -1,7 +1,7 @@
 import React from 'react';
+import { i18n } from '../translate/i18n';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
 
 export const Skills = () => {
   const responsive = {
@@ -27,10 +27,10 @@ export const Skills = () => {
     <section className='flex justify-center w-full bg-gray-300 dark:bg-primaryBg' id='skills'>
       <div className='text-primary dark:text-white w-full md:w-4/5 rounded-2xl p-4 md:p-16'>
         <h1 className='text-5xl md:text-6xl mt-2'>
-          Skills
+          {i18n.t('titles.skills')}
         </h1>
         <h3 className='mb-10 md:text-2xl'>
-          Aqui estão os meus cursos e certificações
+          {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
           <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
