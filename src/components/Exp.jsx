@@ -1,8 +1,10 @@
 import React from 'react';
+import { i18n } from '../translate/i18n';
+import TrackVisibility from 'react-on-screen';
+
 import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 import { LinkedinLogo } from 'phosphor-react';
 
 export const Exp = () => {
@@ -11,10 +13,10 @@ export const Exp = () => {
       <div className='flex flex-col w-full p-4 mt-2 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
         <div className='mb-10'>
           <h1 className='text-4xl md:text-6xl mb-2'>
-            Experiência
+            {i18n.t('titles.exp')}
           </h1>
-          <h3 className='text-base'>
-            Essa é a minha jornada como Dev (até aqui)
+          <h3 className='mb-10 md:text-2xl'>
+            {i18n.t('exp.description')}
           </h3>      
         </div>
         <div className='flex justify-center w-full'>

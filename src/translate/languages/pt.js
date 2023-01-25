@@ -19,6 +19,9 @@ export const messages = {
       skills: {
         description: 'Aqui estão os meus cursos e certificações'
       },
+      exp: {
+        description: 'Essa é a minha jornada como Dev (até aqui)'
+      }
     },
   },
 };
