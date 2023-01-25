@@ -55,13 +55,13 @@ export const NavBar = () => {
               href="#projects" 
               className='text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer' 
               onClick={() => onUpdateActiveLink('projects')}>
-                Projects
+                Projetos
             </a>
             <a 
               href="#contact" 
               className='text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer' 
               onClick={() => onUpdateActiveLink('contact')}>
-                Contact
+                Contato
             </a>
           </div>
           <div className='hidden sm:flex items-center'>
