@@ -8,8 +8,8 @@ export const Main = () => {
   return (
     <section className='w-full flex justify-center' id='home'>
       <div className='flex flex-col mt-32 sm:mt-8 p-2 sm:p-24 w-3/4 rounded-2xl mb-5'>
-        <div className='flex flex-col text-white items-center mb-4'>
-          <h3 className='text-md md:text-2xl mx-2 p-3 border border-primary bg-gradient-to-r from-blue-500 to-primary tracking-wider'>
+        <div className='flex flex-col text-primary dark:text-white items-center mb-4'>
+          <h3 className='text-white text-md md:text-2xl mx-2 p-3 border border-primary bg-gradient-to-r from-blue-500 to-primary tracking-wider'>
             Bem-vindo ao meu portfólio!
           </h3>
           <h1 className='text-3xl md:text-5xl xl:text-7xl mt-16 mb-2'>
@@ -23,11 +23,11 @@ export const Main = () => {
         </div>
         <div className='flex justify-center'>
           <img
-            className='w-72 h-72 mt-10 sm:w-80 sm:h-80 border-2 border-primary rounded-full animate-updown' 
+            className='w-72 h-72 mt-10 sm:w-80 sm:h-80 border-2 border-secondary rounded-full animate-updown' 
             src={profile} 
             alt="" />
         </div>
-        <div className='text-white mt-20'>
+        <div className='text-primary dark:text-white mt-20'>
           <p className='text-xl mb-8'>Tenho interesse especial em:</p>
           <TrackVisibility className='flex justify-center w-full'>
             {({ isVisible }) =>
