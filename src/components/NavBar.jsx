@@ -44,15 +44,15 @@ export const NavBar = () => {
         <a 
           className='flex items-center no-underline group cursor-pointer' href='#home'
           onClick={() => onUpdateActiveLink('home')}>
-            <FinnTheHuman className='text-primary dark:text-white opacity-70 group-hover:opacity-100 text-3xl xl:text-5xl sm:mr-2' />
+            <FinnTheHuman className='text-primary dark:text-white opacity-70 group-hover:opacity-100 hidden lg:block text-3xl xl:text-5xl sm:mr-2' />
             <p className='text-primary dark:text-white font-bold hidden sm:block opacity-90 group-hover:opacity-100 duration-300'>
               {i18n.t('titles.home')}
             </p>
         </a>
         <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />
         <BsMoonFill className={`text-primary cursor-pointer ${theme ? 'hidden' : ''} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />
-        <img src={Brazil} alt="Brazil" className='h-8 w-8 cursor-pointer' onClick={() => handleLanguage('pt-BR')} />
-        <img src={Usa} alt="Usa" className='h-8 w-8 cursor-pointer' onClick={() => handleLanguage('en-US')} />              
+        <img src={Brazil} alt="Brazil" className='h-5 w-5 mr-1 lg:h-8 lg:w-8 cursor-pointer' onClick={() => handleLanguage('pt-BR')} />
+        <img src={Usa} alt="Usa" className='h-5 w-5 lg:h-8 lg:w-8 cursor-pointer' onClick={() => handleLanguage('en-US')} />              
         <div className='flex'>
           <div className='flex items-center'>            
             <a 
