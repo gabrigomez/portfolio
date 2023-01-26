@@ -33,7 +33,7 @@ export const Main = () => {
           <TrackVisibility className='flex justify-center w-full'>
             {({ isVisible }) =>
             <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>
-              <div className='flex justify-center'>
+              <div className='flex justify-center' id='icons'>
                 <SiReact className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
                 <SiVuedotjs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
                 <FaNodeJs className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
