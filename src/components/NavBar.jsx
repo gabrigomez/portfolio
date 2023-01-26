@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { i18n } from '../translate/i18n';
-import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
-import { BsMoonFill, BsSun } from 'react-icons/bs';
 import { useTheme } from '../hooks/useTheme';
 import { useLanguage } from '../hooks/useLanguage';
 
+import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
+import { BsMoonFill, BsSun } from 'react-icons/bs';
 import Brazil from '../assets/Brazil.png';
-import Usa from '../assets/usa.png'
-
+import Usa from '../assets/usa.png';
 
 export const NavBar = () => {
   const [setActiveLink] = useState('home');

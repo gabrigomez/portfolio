@@ -1,7 +1,6 @@
 import React from 'react';
 import { i18n } from '../translate/i18n';
 
-
 export const Footer = () => {
   return (
     <footer className='flex p-10 justify-center text-black dark:text-white'>

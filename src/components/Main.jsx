@@ -1,9 +1,10 @@
 import React from 'react';
 import { i18n } from '../translate/i18n'
+import TrackVisibility from 'react-on-screen';
+
 import profile from '../assets/profile.jpg';
 import { SiTypescript, SiCypress, SiTailwindcss, SiRubyonrails, SiReact, SiVuedotjs } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
-import TrackVisibility from 'react-on-screen';
 
 export const Main = () => {
   return (

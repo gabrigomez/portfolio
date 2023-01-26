@@ -1,9 +1,9 @@
 import React from 'react';
 import { i18n } from '../translate/i18n';
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 import { GithubLogo } from 'phosphor-react';
+import 'animate.css';
 
 export const Projects = () => {
   return (
