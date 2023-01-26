@@ -19,15 +19,18 @@ export const Contact = () => {
           <div className='flex flex-col sm:w-2/4'>
             <div className='flex flex-col items-center mb-4 group'>
               <Envelope className='text-4xl group-hover:scale-125 duration-300'/>
-              <p className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800 hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
-                gabrigomez15@gmail.com
+              <p 
+                className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
+                hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
+                  gabrigomez15@gmail.com
               </p>
             </div>
             <div className='flex flex-col items-center mb-4 group'>
               <LinkedinLogo className='text-4xl group-hover:scale-125 duration-300' />
               <a 
                 href="https://www.linkedin.com/in/gabrielgomes93/" 
-                className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800 hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
+                className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
+                hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
                   Linkedin
               </a>
             </div>
@@ -35,7 +38,8 @@ export const Contact = () => {
               <GithubLogo className='text-4xl group-hover:scale-125 duration-300'/>
               <a 
                 href="https://github.com/gabrigomez"
-                className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800 hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
+                className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
+                hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
                   Github
               </a>
             </div>

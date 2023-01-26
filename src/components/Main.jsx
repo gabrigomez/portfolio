@@ -10,7 +10,11 @@ export const Main = () => {
     <section className='w-full flex justify-center' id='home'>
       <div className='flex flex-col mt-32 sm:mt-8 p-2 sm:p-24 w-3/4 rounded-2xl mb-5'>
         <div className='flex flex-col text-primary dark:text-white items-center mb-4'>
-          <h3 className='text-white text-md md:text-2xl mx-2 p-3 border border-primary bg-gradient-to-r from-blue-500 to-primary tracking-wider shadow-md shadow-black dark:shadow-gray-600'>
+          <h3 
+          className='text-white text-md md:text-2xl mx-2 p-3 
+          border border-primary bg-gradient-to-r from-blue-500 to-primary tracking-wider 
+          shadow-md shadow-black dark:shadow-gray-600'
+          >
             {i18n.t('main.banner')}
           </h3>
           <h1 className='text-3xl md:text-5xl xl:text-7xl mt-16 mb-2'>
