@@ -19,7 +19,7 @@ export const Projects = () => {
         </div>
         <TrackVisibility className='flex justify-center w-full'>
           {({ isVisible }) =>
-            <div className={isVisible ? "animate__animated animate__fadeInLeft md:w-3/4" : "none"}>
+            <div className={isVisible ? "animate__animated animate__zoomIn md:w-3/4" : "none"}>
               <div className='flex justify-center text-primary dark:text-white'>
                 <div className='flex flex-col items-center m-2 p-2 pb-10 w-2/4 md:w-64 duration-300 rounded-2xl hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
                   <img 
