@@ -3,6 +3,9 @@ import { i18n } from '../translate/i18n';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import iff from '../assets/iff.png';
+import udemy from '../assets/udemy.png';
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -37,7 +40,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg group'>
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
+                src={iff} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -52,7 +55,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+                src={udemy} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -69,7 +72,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+                src={udemy} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -86,7 +89,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+                src={udemy} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -103,7 +106,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+                src={udemy} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -120,7 +123,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
+                src={udemy} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
@@ -137,7 +140,7 @@ export const Skills = () => {
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
+                src={iff} 
                 alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
