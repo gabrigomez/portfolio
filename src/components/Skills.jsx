@@ -33,7 +33,7 @@ export const Skills = () => {
           {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg group'>
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
               alt=""
@@ -42,7 +42,7 @@ export const Skills = () => {
             <h3 className='text-lg mb-2 font-bold'>Curso Técnico em Informática</h3>
             <p className='opacity-0 group-hover:opacity-100 duration-500'>Concluído em 2014</p>                        
           </div>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
@@ -55,7 +55,7 @@ export const Skills = () => {
                 Em andamento
             </a>
           </div>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
@@ -68,7 +68,7 @@ export const Skills = () => {
                 Certificado
             </a>
           </div>          
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
@@ -81,7 +81,7 @@ export const Skills = () => {
                 Certificado
             </a>            
           </div>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
@@ -94,7 +94,7 @@ export const Skills = () => {
                 Certificado
             </a>
           </div>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://pbs.twimg.com/profile_images/1415325711896825858/2cczQq-X_400x400.png" 
               alt=""
@@ -107,7 +107,7 @@ export const Skills = () => {
                 Certificado
             </a>
           </div>
-          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl group'>
+          <div className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200 dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagE2GtpuY9L4m-9yugjHD59o2UBCqpWzzhDBZ6NDB_UiLJLrEg6dh8J4CE8ZPmKX_FYE&usqp=CAU" 
               alt=""
