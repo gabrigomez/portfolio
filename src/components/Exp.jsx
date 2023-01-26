@@ -10,12 +10,12 @@ import 'animate.css';
 export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
-      <div className='flex flex-col w-full p-4 mt-2 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
-        <div className='mb-10'>
-          <h1 className='text-4xl md:text-6xl mb-2'>
+      <div className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
+        <div className='mb-8'>
+          <h1 className='text-5xl md:text-6xl'>
             {i18n.t('titles.exp')}
           </h1>
-          <h3 className='mb-10 md:text-2xl'>
+          <h3 className='md:text-2xl'>
             {i18n.t('exp.description')}
           </h3>      
         </div>

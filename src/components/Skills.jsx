@@ -26,10 +26,10 @@ export const Skills = () => {
   return (
     <section className='flex justify-center w-full bg-gray-300 dark:bg-primaryBg' id='skills'>
       <div className='text-primary dark:text-white w-full md:w-4/5 rounded-2xl p-4 md:p-16'>
-        <h1 className='text-5xl md:text-6xl mt-2'>
+        <h1 className='text-5xl md:text-6xl'>
           {i18n.t('titles.skills')}
         </h1>
-        <h3 className='mb-10 md:text-2xl'>
+        <h3 className='mb-4 md:text-2xl'>
           {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>

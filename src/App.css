@@ -8,10 +8,6 @@
   font-family: 'Rajdhani', sans-serif;
 }
 
-p {
-  margin: 0px;
-}
-
 body {
   max-height: 100vh;
 }
@@ -22,14 +18,28 @@ html {
 }
 
 section {
-  margin-bottom: 150px;  
+  margin-bottom: 100px;  
+}
+
+p {
+  margin: 0px;
 }
 
 .App {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 800px 800px 800px auto auto ;
+
   text-align: center;
 }
 
 .none {
   opacity: 0;
+}
+
+@media only screen and (max-width: 390px) {
+  .App {
+    grid-template-rows: 1fr 600px 600px 600px auto auto ;
+  }
 }
 
