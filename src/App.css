@@ -37,7 +37,7 @@ p {
   opacity: 0;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   .App {
     grid-template-rows: 1fr 600px 600px 600px auto auto ;
   }
