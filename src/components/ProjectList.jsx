@@ -11,37 +11,37 @@ import Carousel from 'react-multi-carousel';
 
 export const ProjectList = () => {
   const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
+    largeDesktop: {
+      breakpoint: { max: 3000, min: 1600 },
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1180 },
+      breakpoint: { max: 1600, min: 1200 },
       items: 4
     },
     tablet: {
-      breakpoint: { max: 1180, min: 400 },
+      breakpoint: { max: 1200, min: 500 },
       items: 3
     },
     mobile: {
-      breakpoint: { max: 400, min: 0 },
+      breakpoint: { max: 500, min: 0 },
       items: 2
     }
   };
 
   return (
-    <div className='flex flex-wrap w-full justify-center text-primary dark:text-white'>
-      <Carousel responsive={responsive}>
+    <div className='flex flex-wrap w-4/5 justify-center text-primary dark:text-white'>
+      <Carousel responsive={responsive} className='w-full'>
         <div 
-          className='flex flex-col items-center m-2 p-2 h-48 sm:h-2/4  
-          w-24 md:w-64 duration-300 rounded-2xl shadow-md
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80   
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
           dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
             <img 
               src={SpotifyGif} 
               alt=""
-              className='w-22 h-22 lg:w-48 lg:h-48 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-3xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               My Birthday Party
             </p>
             <a 
@@ -53,15 +53,15 @@ export const ProjectList = () => {
             </a>                               
         </div>
         <div 
-          className='flex flex-col items-center m-2 p-2 h-48 sm:h-2/4  
-          w-24 md:w-64 duration-300 rounded-2xl shadow-md
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
           dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
             <img 
               src={Disappointed} 
               alt=""
-              className='w-22 h-22 lg:w-48 lg:h-48 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-3xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               Esqueci meu CEP!
             </p>
             <a 
@@ -73,15 +73,15 @@ export const ProjectList = () => {
             </a>                     
         </div>
         <div 
-          className='flex flex-col items-center m-2 p-2 h-48 sm:h-2/4  
-          w-24 md:w-64 duration-300 rounded-2xl shadow-md
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
           dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
             <img 
               src={GithubGif} 
               alt=""
-              className='w-22 h-22 lg:w-48 lg:h-48 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-3xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               Github Repo Filter
             </p>                    
             <div className='flex'>
@@ -102,15 +102,15 @@ export const ProjectList = () => {
             </div>                                         
         </div>        
         <div 
-          className='flex flex-col items-center m-2 p-2 h-48 sm:h-2/4  
-          w-24 md:w-64 duration-300 rounded-2xl shadow-md
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
           dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
             <img 
               src={Pacman} 
               alt=""
-              className='w-22 h-22 lg:w-48 lg:h-48 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-3xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               My classic games
             </p>
             <a 
@@ -122,15 +122,15 @@ export const ProjectList = () => {
             </a>                     
         </div>      
         <div 
-          className='flex flex-col items-center m-2 p-2 h-48 sm:h-2/4  
-          w-24 md:w-64 duration-300 rounded-2xl shadow-md
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
           dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
             <img 
               src={LoginGif} 
               alt=""
-              className='w-22 h-22 lg:w-48 lg:h-48 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-3xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               Vue login
             </p>            
             <a 
