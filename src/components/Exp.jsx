@@ -37,12 +37,12 @@ export const Exp = () => {
                       <p className='opacity-0 group-hover:opacity-100 duration-500 mb-2'>
                         Ago 2021 - Jan 2023
                       </p>
-                      <p className='opacity-0 group-hover:opacity-100 duration-500 font-bold'>
+                      <p className='text-sm opacity-0 group-hover:opacity-100 duration-500 font-bold'>
                         Front-end developer/Quality Assurance
                       </p>                                      
                       <a 
                         href="https://www.linkedin.com/company/adeptly/" 
-                        className='hover:text-black dark:hover:text-primary duration-300 mt-4'>
+                        className='hover:text-black dark:hover:text-primary duration-300 mt-2'>
                           <LinkedinLogo className='text-2xl md:text-4xl opacity-0 group-hover:opacity-100 duration-300' />
                       </a>                  
                   </div>
@@ -66,7 +66,7 @@ export const Exp = () => {
                       </p>
                       <a 
                         href="https://www.linkedin.com/company/tracklift/" 
-                        className='hover:text-black dark:hover:text-primary duration-300 mt-4'>
+                        className='hover:text-black dark:hover:text-primary duration-300 mt-2'>
                           <LinkedinLogo className='text-2xl md:text-4xl opacity-0 group-hover:opacity-100 duration-300' />
                       </a> 
                   </div>
