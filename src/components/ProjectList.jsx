@@ -42,15 +42,24 @@ export const ProjectList = () => {
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
             <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              My Birthday Party
+              My Birthday Show
             </p>
-            <a 
-              href="https://github.com/gabrigomez/my-classic-games"
-              className='flex justify-center'>
-                <GithubLogo 
-                  className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
-                  text-center hover:text-black dark:hover:text-primary'/>
-            </a>                               
+            <div className='flex'>
+              <a 
+                href="https://github.com/gabrigomez/my-birthday-show"
+                className='flex justify-center mr-2'>
+                  <GithubLogo 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a> 
+              <a 
+                href="https://mybirthdayshow.netlify.app/"
+                className='flex justify-center'>
+                  <Browsers 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>
+            </div>                                          
         </div>
         <div 
           className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
@@ -64,13 +73,22 @@ export const ProjectList = () => {
             <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               Esqueci meu CEP!
             </p>
-            <a 
-              href="https://github.com/gabrigomez/my-classic-games"
-              className='flex justify-center'>
-                <GithubLogo 
-                  className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
-                  text-center hover:text-black dark:hover:text-primary'/>
-            </a>                     
+            <div className='flex'>
+              <a 
+                href="https://github.com/gabrigomez/esqueci-meu-cep"
+                className='flex justify-center mr-2'>
+                  <GithubLogo 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>  
+              <a 
+                href="https://esquecimeucep.netlify.app/"
+                className='flex justify-center'>
+                  <Browsers 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>
+            </div>                               
         </div>
         <div 
           className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
