@@ -9,7 +9,7 @@ import Brazil from '../assets/Brazil.png';
 import Usa from '../assets/usa.png';
 
 export const NavBar = () => {
-  const [setActiveLink] = useState('home');
+  const [activeLink, setActiveLink] = useState<string>('home');
   const [scrolled, setScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
   const { setLanguage } = useLanguage();
@@ -28,20 +28,20 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
    
-  const onUpdateActiveLink = (value) => {
+  const onUpdateActiveLink = (value: string) => {
     setActiveLink(value);
   };
 
-  const handleLanguage = (value) => {
+  const handleLanguage = (value:string) => {
     setLanguage(value);
     window.location.reload();
   }
 
   return (
-    <nav expand="md" className={`p-2 fixed w-full top-0 z-10 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
+    <nav className={`p-2 fixed w-full top-0 z-10 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around items-center p-2'>
         <a 
-          className='flex items-center no-underline group cursor-pointer' href='#home'
+          className={`flex items-center no-underline group cursor-pointer ${activeLink}`} href='#home'
           onClick={() => onUpdateActiveLink('home')}>
             <FinnTheHuman className='text-primary dark:text-white opacity-70 group-hover:opacity-100 hidden lg:block text-3xl xl:text-5xl sm:mr-2' />
             <p className='text-primary dark:text-white font-bold hidden sm:block opacity-90 group-hover:opacity-100 duration-300'>
