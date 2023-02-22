@@ -52,13 +52,13 @@ export const ProjectList = () => {
                     className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
                     text-center hover:text-black dark:hover:text-primary'/>
               </a> 
-              <a 
+              {/* <a 
                 href="https://mybirthdayshow.netlify.app/"
                 className='flex justify-center'>
                   <Browsers 
                     className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
                     text-center hover:text-black dark:hover:text-primary'/>
-              </a>
+              </a> */}
             </div>                                          
         </div>
         <div 
