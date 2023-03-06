@@ -46,6 +46,7 @@ export const ProjectList = () => {
             </p>
             <div className='flex'>
               <a 
+                target="blank"
                 href="https://github.com/gabrigomez/my-birthday-show"
                 className='flex justify-center mr-2'>
                   <GithubLogo 
@@ -53,6 +54,7 @@ export const ProjectList = () => {
                     text-center hover:text-black dark:hover:text-primary'/>
               </a> 
               <a 
+                target="blank"
                 href="https://mybirthdayshow.netlify.app/"
                 className='flex justify-center'>
                   <Browsers 
@@ -75,6 +77,7 @@ export const ProjectList = () => {
             </p>
             <div className='flex'>
               <a 
+                target="blank"
                 href="https://github.com/gabrigomez/esqueci-meu-cep"
                 className='flex justify-center mr-2'>
                   <GithubLogo 
@@ -82,6 +85,7 @@ export const ProjectList = () => {
                     text-center hover:text-black dark:hover:text-primary'/>
               </a>  
               <a 
+                target="blank"
                 href="https://esquecimeucep.netlify.app/"
                 className='flex justify-center'>
                   <Browsers 
@@ -104,6 +108,7 @@ export const ProjectList = () => {
             </p>                    
             <div className='flex'>
               <a 
+                target="blank"
                 href="https://github.com/gabrigomez/github-repo-finder"
                 className='flex justify-center mr-2'>
                   <GithubLogo 
@@ -111,6 +116,7 @@ export const ProjectList = () => {
                     text-center hover:text-black dark:hover:text-primary'/>
               </a>
               <a 
+                target="blank"
                 href="https://finderrepo.netlify.app/"
                 className='flex justify-center'>
                   <Browsers 
@@ -132,6 +138,7 @@ export const ProjectList = () => {
               My classic games
             </p>
             <a 
+              target="blank"
               href="https://github.com/gabrigomez/my-classic-games"
               className='flex justify-center'>
                 <GithubLogo 
@@ -152,6 +159,7 @@ export const ProjectList = () => {
               Vue login
             </p>            
             <a 
+              target="blank"
               href="https://github.com/gabrigomez/login-page"
               className='flex justify-center'>
                 <GithubLogo 
