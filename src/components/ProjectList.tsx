@@ -136,14 +136,24 @@ export const ProjectList = () => {
             <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
               My classic games
             </p>
-            <a 
-              target="blank"
-              href="https://github.com/gabrigomez/my-classic-games"
-              className='flex justify-center'>
-                <GithubLogo 
+            <div className='flex'>            
+              <a 
+                target="blank"
+                href="https://github.com/gabrigomez/my-classic-games"
+                className='flex justify-center'>
+                  <GithubLogo 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary mr-2'/>
+              </a>
+              <a 
+                target="blank"
+                href="https://myclassicgamelist.netlify.app/"
+                className='flex justify-center'>
+                <Browsers 
                   className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
                   text-center hover:text-black dark:hover:text-primary'/>
-            </a>                     
+              </a>
+            </div>                     
         </div>        
       </Carousel>
     </div>
