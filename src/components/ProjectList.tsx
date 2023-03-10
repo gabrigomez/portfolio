@@ -3,7 +3,6 @@ import { Browsers, GithubLogo } from 'phosphor-react';
 import 'animate.css';
 
 import GithubGif from '../assets/github.gif';
-import LoginGif from '../assets/login.gif';
 import Pacman from '../assets/pacman.gif';
 import SpotifyGif from '../assets/spotify.gif';
 import Disappointed from '../assets/disappointed.gif';
@@ -13,7 +12,7 @@ export const ProjectList = () => {
   const responsive = {
     largeDesktop: {
       breakpoint: { max: 3000, min: 1600 },
-      items: 5
+      items: 4
     },
     desktop: {
       breakpoint: { max: 1600, min: 1200 },
@@ -145,28 +144,7 @@ export const ProjectList = () => {
                   className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
                   text-center hover:text-black dark:hover:text-primary'/>
             </a>                     
-        </div>      
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
-              src={LoginGif} 
-              alt=""
-              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
-            />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              Vue login
-            </p>            
-            <a 
-              target="blank"
-              href="https://github.com/gabrigomez/login-page"
-              className='flex justify-center'>
-                <GithubLogo 
-                  className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
-                  text-center hover:text-black dark:hover:text-primary'/>
-            </a>                       
-        </div>
+        </div>        
       </Carousel>
     </div>
   )
