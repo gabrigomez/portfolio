@@ -6,6 +6,7 @@ import GithubGif from '../assets/github.gif';
 import Pacman from '../assets/pacman.gif';
 import SpotifyGif from '../assets/spotify.gif';
 import Disappointed from '../assets/disappointed.gif';
+import Chat from '../assets/chat.gif';
 import Carousel from 'react-multi-carousel';
 
 export const ProjectList = () => {
@@ -61,6 +62,37 @@ export const ProjectList = () => {
                     text-center hover:text-black dark:hover:text-primary'/>
               </a>
             </div>                                          
+        </div>
+        <div 
+          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
+          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
+          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
+            <img 
+              src={Chat} 
+              alt=""
+              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
+            />
+            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
+              Let's Chat!
+            </p>
+            <div className='flex'>
+              <a 
+                target="blank"
+                href="https://github.com/gabrigomez/lets-chat"
+                className='flex justify-center mr-2'>
+                  <GithubLogo 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>  
+              <a 
+                target="blank"
+                href="https://letschatoficial.netlify.app/"
+                className='flex justify-center'>
+                  <Browsers 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>
+            </div>                               
         </div>
         <div 
           className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
