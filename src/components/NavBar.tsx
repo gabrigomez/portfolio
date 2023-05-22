@@ -92,8 +92,9 @@ export const NavBar = () => {
                   <GithubLogo className='text-2xl z-10 duration-300 text-white hover:scale-105 group-hover:text-white'/>
               </a>
               <a 
-                href="/assets/curriculo.pdf"
-                download
+                href="https://drive.google.com/file/d/1DvuUkQaAonXV67rGEvVpbEJhwkdliRRD/view?usp=share_link"
+                target="blank"
+                download="file.pdf"
                 className='social-icon group'>
                   <UserList className='text-2xl z-10 duration-300 text-white hover:scale-105 group-hover:text-white'/>
               </a>
