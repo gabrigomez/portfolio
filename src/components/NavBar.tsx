@@ -3,7 +3,7 @@ import { i18n } from '../translate/i18n';
 import { useTheme } from '../hooks/useTheme';
 import { useLanguage } from '../hooks/useLanguage';
 
-import { FinnTheHuman, GithubLogo, LinkedinLogo } from 'phosphor-react';
+import { FinnTheHuman, GithubLogo, LinkedinLogo, UserList } from 'phosphor-react';
 import { BsMoonFill, BsSun } from 'react-icons/bs';
 import Brazil from '../assets/Brazil.png';
 import Usa from '../assets/usa.png';
@@ -90,6 +90,12 @@ export const NavBar = () => {
                 href="https://github.com/gabrigomez"
                 className='social-icon group'>
                   <GithubLogo className='text-2xl z-10 duration-300 text-white hover:scale-105 group-hover:text-white'/>
+              </a>
+              <a 
+                href="/assets/curriculo.pdf"
+                download
+                className='social-icon group'>
+                  <UserList className='text-2xl z-10 duration-300 text-white hover:scale-105 group-hover:text-white'/>
               </a>
             </div>
           </div>
