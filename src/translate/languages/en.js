@@ -26,7 +26,8 @@ export const messages = {
         description: 'Here are some of my personal projects'
       },
       contact: {
-        description: `I'm await your contact!`
+        description: `I'm await your contact!`,
+        fields: 'Resumé'
       },
       footer: {
         title: 'develop by gabrigomez',

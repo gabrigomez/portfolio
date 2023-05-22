@@ -54,7 +54,7 @@ export const Contact = () => {
                       target="blank"
                       className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
                       hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
-                        Curriculo
+                        {i18n.t('contact.fields')}
                     </a>
                   </div>
                 </div>

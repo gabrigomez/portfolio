@@ -26,7 +26,8 @@ export const messages = {
         description: 'Estes são alguns dos meus projetos'
       },
       contact: {
-        description: 'Aguardo o seu contato!'
+        description: 'Aguardo o seu contato!',
+        fields: 'Currículo'
       },
       footer: {
         title: 'desenvolvido por gabrigomez',
