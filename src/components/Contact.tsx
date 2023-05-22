@@ -1,6 +1,6 @@
 import React from 'react';
 import { i18n } from '../translate/i18n';
-import { Envelope, GithubLogo, LinkedinLogo } from 'phosphor-react';
+import { Envelope, GithubLogo, LinkedinLogo, UserList } from 'phosphor-react';
 import coding from '../assets/coding.gif';
 import TrackVisibility from 'react-on-screen';
 
@@ -45,6 +45,16 @@ export const Contact = () => {
                       className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
                       hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
                         Github
+                    </a>
+                  </div>
+                  <div className='flex flex-col items-center mb-6 group'>
+                    <UserList className='text-4xl group-hover:scale-125 duration-300'/>
+                    <a 
+                      href="https://drive.google.com/file/d/1DvuUkQaAonXV67rGEvVpbEJhwkdliRRD/view?usp=share_link"
+                      target="blank"
+                      className='text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
+                      hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300'>
+                        Curriculo
                     </a>
                   </div>
                 </div>
