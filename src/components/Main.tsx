@@ -3,7 +3,7 @@ import { i18n } from '../translate/i18n'
 import TrackVisibility from 'react-on-screen';
 
 import profile from '../assets/profile.jpg';
-import { SiTypescript, SiCypress, SiTailwindcss, SiRubyonrails, SiReact, SiVuedotjs } from 'react-icons/si';
+import { SiTypescript, SiCypress, SiTailwindcss, SiRubyonrails, SiReact, SiVuedotjs, SiDjango } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 
 export const Main = () => {
@@ -45,6 +45,7 @@ export const Main = () => {
                 <SiTypescript className='text-4xl lg:text-6xl mr-2 lg:mr-6' />           
                 <SiTailwindcss className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
                 <SiCypress className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
+                <SiDjango className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
                 <SiRubyonrails className='text-4xl lg:text-6xl mr-2 lg:mr-6' />
               </div>
             </div>
