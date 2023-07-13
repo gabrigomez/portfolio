@@ -30,7 +30,7 @@ export const messages = {
         fields: 'Resumé'
       },
       footer: {
-        title: 'develop by gabrigomez',
+        title: 'developed by gabrigomez',
         description: '2023 - All rights reserved'
       }
     },
