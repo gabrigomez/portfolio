@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .contact-type {
+    @apply text-xl md:text-2xl hover:text-gray-500 border-b-2 border-gray-800
+    hover:border-gray-900 dark:border-gray-200 dark:hover:border-gray-300 duration-300
+  }
   .exp-container {
     @apply flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
     rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
