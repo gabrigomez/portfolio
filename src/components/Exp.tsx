@@ -6,11 +6,12 @@ import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
 import { LinkedinLogo } from 'phosphor-react';
 import 'animate.css';
+import { Card } from './Cards';
 
 export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
-      <div className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
+      <Card.Root className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
         <div className='mb-8'>
           <h1 className='text-5xl md:text-6xl'>
             {i18n.t('titles.exp')}
@@ -28,12 +29,14 @@ export const Exp = () => {
                     className='flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
                     rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
                     hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500 group'>          
-                      <img 
+                      <Card.CardImage 
                         src={adeptly} 
-                        alt=""
                         className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
                       />
-                      <h3 className='m-2 text-2xl md:text-4xl'>Adeptly</h3>
+                      <Card.CardTitle 
+                        className='m-2 text-2xl md:text-4xl'
+                        title='Adeptly'
+                      />
                       <p className='opacity-0 group-hover:opacity-100 duration-500 mb-2'>
                         Ago 2021 - Jan 2023
                       </p>
@@ -50,14 +53,14 @@ export const Exp = () => {
                     className='flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
                     rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
                     hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500 group'>          
-                      <img 
+                      <Card.CardImage 
                         src={tracklift} 
-                        alt=""
                         className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
                       />
-                      <h3 className='m-2 text-2xl md:text-4xl'>
-                        Tracklift
-                      </h3>
+                      <Card.CardTitle 
+                        className='m-2 text-2xl md:text-4xl'
+                        title='Tracklift'
+                      />
                       <p className='opacity-0 group-hover:opacity-100 duration-500 mb-2'>
                         Jun 2021 - Ago 2021
                       </p>
@@ -75,7 +78,7 @@ export const Exp = () => {
             }
           </TrackVisibility>
         </div>
-      </div>
+      </Card.Root>
     </section>
   )
 }
