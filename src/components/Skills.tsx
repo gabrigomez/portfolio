@@ -37,9 +37,9 @@ export const Skills = () => {
           {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
-                className="card-image" 
+                className="skills-card-image" 
                 src={iff}
               />
               <Card.CardTitle
@@ -50,10 +50,10 @@ export const Skills = () => {
                 Concluído em 2014
               </p>                        
           </div>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={udemy} 
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle
                 className='text-lg mb-2 font-bold'
@@ -65,10 +65,10 @@ export const Skills = () => {
                   Em andamento
               </a>
           </div>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -80,10 +80,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>          
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -95,10 +95,10 @@ export const Skills = () => {
                   Certificado
               </a>            
           </div>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -110,10 +110,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -125,10 +125,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div className='card-container'>
+          <div className='skills-container'>
               <Card.CardImage 
                 src={iff}                
-                className='card-image' 
+                className='skills-card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'

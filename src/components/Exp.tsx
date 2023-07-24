@@ -5,8 +5,8 @@ import TrackVisibility from 'react-on-screen';
 import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
 import { LinkedinLogo } from 'phosphor-react';
-import 'animate.css';
 import { Card } from './Cards';
+import 'animate.css';
 
 export const Exp = () => {
   return (
@@ -26,9 +26,7 @@ export const Exp = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>
                 <div className='flex h-96'>
                   <div 
-                    className='flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
-                    rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
-                    hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500 group'>          
+                    className='exp-container group'>          
                       <Card.CardImage 
                         src={adeptly} 
                         className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
@@ -50,9 +48,7 @@ export const Exp = () => {
                       </a>                  
                   </div>
                   <div 
-                    className='flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
-                    rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
-                    hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500 group'>          
+                    className='exp-container group'>          
                       <Card.CardImage 
                         src={tracklift} 
                         className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
