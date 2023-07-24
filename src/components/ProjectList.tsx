@@ -2,12 +2,13 @@ import React from 'react';
 import { Browsers, GithubLogo } from 'phosphor-react';
 import 'animate.css';
 
+import Carousel from 'react-multi-carousel';
 import GithubGif from '../assets/github.gif';
 import Pacman from '../assets/pacman.gif';
 import SpotifyGif from '../assets/spotify.gif';
 import Disappointed from '../assets/disappointed.gif';
 import Chat from '../assets/chat.gif';
-import Carousel from 'react-multi-carousel';
+import { Card } from './Cards';
 
 export const ProjectList = () => {
   const responsive = {
@@ -30,20 +31,17 @@ export const ProjectList = () => {
   };
 
   return (
-    <div className='flex flex-wrap w-4/5 justify-center text-primary dark:text-white'>
+    <Card.Root className='flex flex-wrap w-4/5 justify-center text-primary dark:text-white'>
       <Carousel responsive={responsive} className='w-full'>
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80   
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
+        <div className='project-list-container group'>
+            <Card.CardImage
               src={SpotifyGif} 
-              alt=""
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              My Birthday Show
-            </p>
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title='My Birthday Show'
+            />
             <div className='flex'>
               <a 
                 target="blank"
@@ -63,18 +61,15 @@ export const ProjectList = () => {
               </a>
             </div>                                          
         </div>
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
+        <div className='project-list-container group'>
+            <Card.CardImage
               src={Chat} 
-              alt=""
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              Let's Chat!
-            </p>
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title="Let's Chat!"
+            />
             <div className='flex'>
               <a 
                 target="blank"
@@ -94,18 +89,15 @@ export const ProjectList = () => {
               </a>
             </div>                               
         </div>
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
+        <div className='project-list-container group'>
+            <Card.CardImage
               src={Disappointed} 
-              alt=""
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              Esqueci meu CEP!
-            </p>
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title="Esqueci meu CEP!"
+            />              
             <div className='flex'>
               <a 
                 target="blank"
@@ -125,18 +117,15 @@ export const ProjectList = () => {
               </a>
             </div>                               
         </div>
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
+        <div className='project-list-container group'>
+            <Card.CardImage
               src={GithubGif} 
-              alt=""
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              Github Repo Filter
-            </p>                    
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title="Github Repo Filter"
+            />                                  
             <div className='flex'>
               <a 
                 target="blank"
@@ -156,18 +145,15 @@ export const ProjectList = () => {
               </a>
             </div>                                         
         </div>        
-        <div 
-          className='flex flex-col items-center m-2 p-2 h-52 sm:h-64 md:h-72 lg:h-80  
-          w-24 sm:w-36 lg:w-52 duration-300 rounded-2xl shadow-md
-          dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg group'>
-            <img 
+        <div className='project-list-container group'>
+            <Card.CardImage
               src={Pacman} 
-              alt=""
               className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
             />
-            <p className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'>
-              My classic games
-            </p>
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title="My classic games"
+            />              
             <div className='flex'>            
               <a 
                 target="blank"
@@ -188,6 +174,6 @@ export const ProjectList = () => {
             </div>                     
         </div>        
       </Carousel>
-    </div>
+    </Card.Root>
   )
 }
