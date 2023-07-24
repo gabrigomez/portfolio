@@ -1,7 +1,14 @@
-export const CardImage = () => {
-  return (
-    <div>
+interface CardImageProps {
+  className: string,
+  src: string
+}
 
-    </div>
+export const CardImage = ({className, src}: CardImageProps) => {
+  return (
+    <img 
+      src={src}
+      alt="" 
+      className={className} 
+    />
   )
 }

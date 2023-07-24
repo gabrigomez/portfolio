@@ -5,6 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import iff from '../assets/iff.png';
 import udemy from '../assets/udemy.png';
+import { Card } from './Cards/index';
 
 export const Skills = () => {
   const responsive = {
@@ -28,7 +29,7 @@ export const Skills = () => {
 
   return (
     <section className='flex justify-center w-full bg-gray-300 dark:bg-primaryBg' id='skills'>
-      <div className='text-primary dark:text-white w-full md:w-4/5 rounded-2xl p-4 md:p-16'>
+      <Card.Root className='text-primary dark:text-white w-full md:w-4/5 rounded-2xl p-4 md:p-16'>
         <h1 className='text-5xl md:text-6xl'>
           {i18n.t('titles.skills')}
         </h1>
@@ -39,10 +40,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg group'>
-              <img 
-                src={iff} 
-                alt=""
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+              <Card.CardImage 
+                className="w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3" 
+                src={iff}
               />
               <h3 className='text-lg mb-2 font-bold'>
                 Curso Técnico em Informática
@@ -54,9 +54,8 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={udemy} 
-                alt=""
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -71,9 +70,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={udemy} 
-                alt=""
+                
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -88,9 +87,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={udemy} 
-                alt=""
+                
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -105,9 +104,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={udemy} 
-                alt=""
+                
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -122,9 +121,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={udemy} 
-                alt=""
+                
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -139,9 +138,9 @@ export const Skills = () => {
           <div 
             className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
             dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
-              <img 
+              <Card.CardImage 
                 src={iff} 
-                alt=""
+                
                 className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
               />
               <h3 className='text-lg mb-2 font-bold'>
@@ -152,7 +151,7 @@ export const Skills = () => {
               </p>                        
           </div>   
         </Carousel>
-      </div>
+      </Card.Root>
     </section>
   )
 }
