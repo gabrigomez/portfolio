@@ -37,11 +37,9 @@ export const Skills = () => {
           {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg group'>
+          <div className='card-container'>
               <Card.CardImage 
-                className="w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3" 
+                className="card-image" 
                 src={iff}
               />
               <Card.CardTitle
@@ -52,12 +50,10 @@ export const Skills = () => {
                 Concluído em 2014
               </p>                        
           </div>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={udemy} 
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle
                 className='text-lg mb-2 font-bold'
@@ -69,12 +65,10 @@ export const Skills = () => {
                   Em andamento
               </a>
           </div>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -86,12 +80,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>          
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -103,12 +95,10 @@ export const Skills = () => {
                   Certificado
               </a>            
           </div>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -120,12 +110,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={udemy}                
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
@@ -137,12 +125,10 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div 
-            className='flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
-            dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black group'>
+          <div className='card-container'>
               <Card.CardImage 
                 src={iff}                
-                className='w-28 h-28 md:w-44 md:h-44 border-2 border-primary rounded-full mb-3' 
+                className='card-image' 
               />
               <Card.CardTitle 
                 className='text-lg mb-2 font-bold'
