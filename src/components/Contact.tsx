@@ -46,7 +46,7 @@ export const Contact = () => {
                   <div className='flex flex-col items-center mb-6 group'>
                     <UserList className='text-4xl group-hover:scale-125 duration-300'/>
                     <a 
-                      href="https://drive.google.com/file/d/1DvuUkQaAonXV67rGEvVpbEJhwkdliRRD/view?usp=share_link"
+                      href="https://drive.google.com/file/d/1kSjdbgHWzxKmwDrTSV97sOGUPiOhCjVB/view"
                       target="blank"
                       className='contact-type'>
                         {i18n.t('contact.fields')}
