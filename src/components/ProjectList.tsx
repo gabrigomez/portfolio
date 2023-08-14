@@ -8,6 +8,7 @@ import Pacman from '../assets/pacman.gif';
 import SpotifyGif from '../assets/spotify.gif';
 import Disappointed from '../assets/disappointed.gif';
 import Chat from '../assets/chat.gif';
+import Music from '../assets/music.gif';
 import { Card } from './Cards';
 
 export const ProjectList = () => {
@@ -36,7 +37,7 @@ export const ProjectList = () => {
         <div className='project-list-container group'>
             <Card.CardImage
               src={SpotifyGif} 
-              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 bg-white border-primary rounded-full mb-4' 
             />
             <Card.CardTitle 
               className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
@@ -60,6 +61,34 @@ export const ProjectList = () => {
                     text-center hover:text-black dark:hover:text-primary'/>
               </a>
             </div>                                          
+        </div>
+        <div className='project-list-container group'>
+            <Card.CardImage
+              src={Music} 
+              className='w-22 h-22 border-2 bg-white border-primary rounded-full mb-4' 
+            />
+            <Card.CardTitle 
+              className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
+              title="Tr4cker"
+            />
+            <div className='flex'>
+              <a 
+                target="blank"
+                href="https://github.com/gabrigomez/tr4cker"
+                className='flex justify-center mr-2'>
+                  <GithubLogo 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>  
+              <a 
+                target="blank"
+                href="https://tr4cker.netlify.app/"
+                className='flex justify-center'>
+                  <Browsers 
+                    className='text-2xl mt-4 opacity-0 group-hover:opacity-100 duration-200 
+                    text-center hover:text-black dark:hover:text-primary'/>
+              </a>
+            </div>                               
         </div>
         <div className='project-list-container group'>
             <Card.CardImage
@@ -92,7 +121,7 @@ export const ProjectList = () => {
         <div className='project-list-container group'>
             <Card.CardImage
               src={Disappointed} 
-              className='w-22 h-22 border-2 border-primary rounded-full mb-4' 
+              className='w-22 h-22 border-2 bg-white border-primary rounded-full mb-4' 
             />
             <Card.CardTitle 
               className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'
