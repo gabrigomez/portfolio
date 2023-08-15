@@ -1,6 +1,6 @@
 import { Contact } from './components/Contact';
 import { Exp } from './components/Exp';
-import { Footer } from './components/Footer';
+import { Footer } from './components/Organisms/Footer';
 import { Main } from './components/Main';
 import { NavBar } from './components/Organisms/NavBar';
 import { Projects } from './components/Projects';
