@@ -1,13 +1,12 @@
-import React from 'react'
-
 import { Contact } from './components/Contact';
 import { Exp } from './components/Exp';
 import { Footer } from './components/Footer';
 import { Main } from './components/Main';
-import { NavBar } from './components/NavBar';
+import { NavBar } from './components/Organisms/NavBar';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { useTheme } from './hooks/useTheme';
+
 import './App.css';
 
 function App() {
