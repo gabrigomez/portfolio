@@ -1,14 +1,14 @@
-import { i18n } from '../translate/i18n';
+import { i18n } from '../../translate/i18n';
 import TrackVisibility from 'react-on-screen';
 
-import adeptly from '../assets/adeptly.jpeg';
-import tracklift from '../assets/Tracklift.jpeg';
-import { Card } from './Atoms/Cards';
-import { DescriptionAtom } from './Atoms/DescriptionAtom';
-import { TitleAtom } from './Atoms/TitleAtom';
+import { Card } from '../Atoms/Cards';
+import { DescriptionAtom } from '../Atoms/DescriptionAtom';
+import { ExpList } from './ExpList';
+import { TitleAtom } from '../Atoms/TitleAtom';
 
+import adeptly from '../../assets/adeptly.jpeg';
+import tracklift from '../../assets/Tracklift.jpeg';
 import 'animate.css';
-import { ExpList } from './Organisms/ExpList';
 
 const expList = [
   {

@@ -1,5 +1,5 @@
 import { Contact } from './components/Organisms/Contact';
-import { Exp } from './components/Exp';
+import { Exp } from './components/Organisms/Exp';
 import { Footer } from './components/Organisms/Footer';
 import { Main } from './components/Main';
 import { NavBar } from './components/Organisms/NavBar';
