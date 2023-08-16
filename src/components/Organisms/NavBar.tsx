@@ -66,11 +66,31 @@ export const NavBar = () => {
   return (
     <nav className={`p-2 fixed w-full top-0 z-10 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around items-center p-2'>
-        <HomeTitleMolecule onClick={() => onUpdateActiveLink('home')} activeLink={activeLink} children={i18n.t('titles.home')} />
-        <BsSun className={`text-white cursor-pointer ${theme ? '' : 'hidden'} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />
-        <BsMoonFill className={`text-primary cursor-pointer ${theme ? 'hidden' : ''} text-lg xl:text-2xl`} onClick={() => setTheme(!theme)} />
-        <img src={Brazil} alt="Brazil" className='h-5 w-5 mr-1 lg:h-8 lg:w-8 cursor-pointer' onClick={() => handleLanguage('pt-BR')} />
-        <img src={Usa} alt="Usa" className='h-5 w-5 lg:h-8 lg:w-8 cursor-pointer' onClick={() => handleLanguage('en-US')} />              
+        <HomeTitleMolecule 
+          activeLink={activeLink} 
+          children={i18n.t('titles.home')} 
+          onClick={() => onUpdateActiveLink('home')} 
+        />
+        <BsSun 
+          className={`text-white cursor-pointer ${theme ? '' : 'hidden'} text-lg xl:text-2xl`} 
+          onClick={() => setTheme(!theme)} 
+        />
+        <BsMoonFill 
+          className={`text-primary cursor-pointer ${theme ? 'hidden' : ''} text-lg xl:text-2xl`} 
+          onClick={() => setTheme(!theme)} 
+        />
+        <img 
+          alt="Brazil" 
+          className='h-5 w-5 mr-1 lg:h-8 lg:w-8 cursor-pointer' 
+          onClick={() => handleLanguage('pt-BR')} 
+          src={Brazil} 
+        />
+        <img 
+          alt="Usa" 
+          src={Usa} 
+          className='h-5 w-5 lg:h-8 lg:w-8 cursor-pointer' 
+          onClick={() => handleLanguage('en-US')} 
+        />              
         <div className='flex'>          
           <NavBarSectionLinks sections={sections} />
           <NavBarContactLinks />

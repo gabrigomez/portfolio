@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-
 export interface NavBarLinkProps {
   className?: string,
   children: ReactNode,
