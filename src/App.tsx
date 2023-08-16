@@ -1,7 +1,7 @@
 import { Contact } from './components/Organisms/Contact';
 import { Exp } from './components/Organisms/Exp';
 import { Footer } from './components/Organisms/Footer';
-import { Main } from './components/Main';
+import { Main } from './components/Organisms/Main';
 import { NavBar } from './components/Organisms/NavBar';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';

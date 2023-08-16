@@ -20,25 +20,21 @@ export const NavBar = () => {
   const sections = [
     {
       href:'#skills',
-      className:'text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer',
       onClick: () => onUpdateActiveLink('skills'),
       children: i18n.t('titles.skills'),
     },
     {
       href:'#exp',
-      className:'text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer',
       onClick: () => onUpdateActiveLink('exp'),
       children: i18n.t('titles.exp'),
     },
     {
       href:'#projects',
-      className:'text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer',
       onClick: () => onUpdateActiveLink('projects'),
       children: i18n.t('titles.projects'),
     },
     {
       href:'#contact',
-      className:'text-primary font-bold dark:text-white px-2 sm:px-4 py-0 no-underline text-lg opacity-90 hover:opacity-100 cursor-pointer',
       onClick: () => onUpdateActiveLink('contact'),
       children: i18n.t('titles.contact'),
     }

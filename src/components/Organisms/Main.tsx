@@ -1,8 +1,8 @@
-import { MainMolecule } from './Molecules/MainMolecule';
-import { ImageAtom } from './Atoms/ImageAtom';
-import { InterestsMolecule } from './Molecules/InterestsMolecule';
+import { MainMolecule } from '../Molecules/MainMolecule';
+import { ImageAtom } from '../Atoms/ImageAtom';
+import { InterestsMolecule } from '../Molecules/InterestsMolecule';
 
-import profile from '../assets/profile.jpg';
+import profile from '../../assets/profile.jpg';
 
 export const Main = () => {
   return (

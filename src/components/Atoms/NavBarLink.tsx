@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface NavBarLinkProps {
-  className: string,
+  className?: string,
   children: ReactNode,
   donwload?: any,
   href: string,
