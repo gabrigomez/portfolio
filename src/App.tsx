@@ -1,4 +1,4 @@
-import { Contact } from './components/Contact';
+import { Contact } from './components/Organisms/Contact';
 import { Exp } from './components/Exp';
 import { Footer } from './components/Organisms/Footer';
 import { Main } from './components/Main';
