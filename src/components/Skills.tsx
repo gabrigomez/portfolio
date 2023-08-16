@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 import iff from '../assets/iff.png';
 import udemy from '../assets/udemy.png';
-import { Card } from './Cards/index';
+import { Card } from './Atoms/Cards/index';
 
 export const Skills = () => {
   const responsive = {

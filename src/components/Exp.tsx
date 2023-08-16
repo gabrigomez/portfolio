@@ -1,75 +1,51 @@
-import React from 'react';
 import { i18n } from '../translate/i18n';
 import TrackVisibility from 'react-on-screen';
 
 import adeptly from '../assets/adeptly.jpeg';
 import tracklift from '../assets/Tracklift.jpeg';
-import { LinkedinLogo } from 'phosphor-react';
-import { Card } from './Cards';
+import { Card } from './Atoms/Cards';
+import { DescriptionAtom } from './Atoms/DescriptionAtom';
+import { TitleAtom } from './Atoms/TitleAtom';
+
 import 'animate.css';
+import { ExpList } from './Organisms/ExpList';
+
+const expList = [
+  {
+    description: "Front-end developer/Quality Assurance",
+    expTime: "Ago 2021 - Jan 2023",
+    href: "https://www.linkedin.com/company/adeptly/",  
+    src: adeptly,
+    title: "Adeptly",
+  },
+  {
+    description: "Front-end developer",
+    expTime: "Jun 2021 - Ago 2021",
+    href: "https://www.linkedin.com/company/tracklift/",  
+    src: tracklift,
+    title: "Tracklift",
+  }
+]
 
 export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
       <Card.Root className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
         <div className='mb-8'>
-          <h1 className='text-5xl md:text-6xl'>
-            {i18n.t('titles.exp')}
-          </h1>
-          <h3 className='md:text-2xl'>
-            {i18n.t('exp.description')}
-          </h3>      
+          <TitleAtom 
+            className='text-5xl md:text-6xl'
+            children={i18n.t('titles.exp')}
+          />
+          <DescriptionAtom
+            className='md:text-2xl'
+            children={i18n.t('exp.description')}
+          />
         </div>
         <div className='flex justify-center w-full'>
           <TrackVisibility className='w-full flex justify-center'>
             {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>
-                <div className='flex h-96'>
-                  <div 
-                    className='exp-container group'>          
-                      <Card.CardImage 
-                        src={adeptly} 
-                        className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
-                      />
-                      <Card.CardTitle 
-                        className='m-2 text-2xl md:text-4xl'
-                        title='Adeptly'
-                      />
-                      <p className='opacity-0 group-hover:opacity-100 duration-500 mb-2'>
-                        Ago 2021 - Jan 2023
-                      </p>
-                      <p className='text-sm opacity-0 group-hover:opacity-100 duration-500 font-bold'>
-                        Front-end developer/Quality Assurance
-                      </p>                                      
-                      <a 
-                        href="https://www.linkedin.com/company/adeptly/" 
-                        className='hover:text-black dark:hover:text-primary duration-300 mt-2'>
-                          <LinkedinLogo className='text-2xl md:text-4xl opacity-0 group-hover:opacity-100 duration-300' />
-                      </a>                  
-                  </div>
-                  <div 
-                    className='exp-container group'>          
-                      <Card.CardImage 
-                        src={tracklift} 
-                        className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
-                      />
-                      <Card.CardTitle 
-                        className='m-2 text-2xl md:text-4xl'
-                        title='Tracklift'
-                      />
-                      <p className='opacity-0 group-hover:opacity-100 duration-500 mb-2'>
-                        Jun 2021 - Ago 2021
-                      </p>
-                      <p className='opacity-0 group-hover:opacity-100 duration-500 font-bold'>
-                        Front-end developer
-                      </p>
-                      <a 
-                        href="https://www.linkedin.com/company/tracklift/" 
-                        className='hover:text-black dark:hover:text-primary duration-300 mt-2'>
-                          <LinkedinLogo className='text-2xl md:text-4xl opacity-0 group-hover:opacity-100 duration-300' />
-                      </a> 
-                  </div>
-                </div>          
+              <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>                
+                <ExpList exps={expList} />
               </div>
             }
           </TrackVisibility>

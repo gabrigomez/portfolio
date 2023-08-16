@@ -9,7 +9,7 @@ import SpotifyGif from '../assets/spotify.gif';
 import Disappointed from '../assets/disappointed.gif';
 import Chat from '../assets/chat.gif';
 import Music from '../assets/music.gif';
-import { Card } from './Cards';
+import { Card } from './Atoms/Cards';
 
 export const ProjectList = () => {
   const responsive = {
