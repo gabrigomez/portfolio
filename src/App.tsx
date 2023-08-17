@@ -3,7 +3,7 @@ import { Exp } from './components/Organisms/Exp';
 import { Footer } from './components/Organisms/Footer';
 import { Main } from './components/Organisms/Main';
 import { NavBar } from './components/Organisms/NavBar';
-import { Projects } from './components/Projects';
+import { Projects } from './components/Organisms/Projects';
 import { Skills } from './components/Organisms/Skills';
 import { useTheme } from './hooks/useTheme';
 
