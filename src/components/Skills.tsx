@@ -37,7 +37,7 @@ export const Skills = () => {
           {i18n.t('skills.description')}
         </h3>
         <Carousel responsive={responsive} className='h-3/4'>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 className="skills-card-image" 
                 src={iff}
@@ -50,7 +50,7 @@ export const Skills = () => {
                 Concluído em 2014
               </p>                        
           </div>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={udemy} 
                 className='skills-card-image' 
@@ -65,7 +65,7 @@ export const Skills = () => {
                   Em andamento
               </a>
           </div>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={udemy}                
                 className='skills-card-image' 
@@ -80,7 +80,7 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>          
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={udemy}                
                 className='skills-card-image' 
@@ -95,7 +95,7 @@ export const Skills = () => {
                   Certificado
               </a>            
           </div>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={udemy}                
                 className='skills-card-image' 
@@ -110,7 +110,7 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={udemy}                
                 className='skills-card-image' 
@@ -125,7 +125,7 @@ export const Skills = () => {
                   Certificado
               </a>
           </div>
-          <div className='skills-container'>
+          <div className='skills-container group'>
               <Card.CardImage 
                 src={iff}                
                 className='skills-card-image' 
