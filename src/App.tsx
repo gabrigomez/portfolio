@@ -4,7 +4,7 @@ import { Footer } from './components/Organisms/Footer';
 import { Main } from './components/Organisms/Main';
 import { NavBar } from './components/Organisms/NavBar';
 import { Projects } from './components/Projects';
-import { Skills } from './components/Skills';
+import { Skills } from './components/Organisms/Skills';
 import { useTheme } from './hooks/useTheme';
 
 import './App.css';
