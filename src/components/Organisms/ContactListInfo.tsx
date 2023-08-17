@@ -17,6 +17,7 @@ export const ContactListInfo = ({contactList} : ContactListInfoProps) => {
       {contactList.map((contact) => {
         return (
           <ContactMolecule
+            key={contactList.indexOf(contact)}
             children={contact.children} 
             icon={contact.icon}
             href={contact.href ? contact.href : ''}

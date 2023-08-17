@@ -10,6 +10,7 @@ export const ExpList = ({exps}: ExpListProps) => {
       {exps.map((exp) => {
         return (
           <ExpItem
+            key={exps.indexOf(exp)}
             description={exp.description}
             expTime={exp.expTime}
             href={exp.href}
