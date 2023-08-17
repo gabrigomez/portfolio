@@ -28,3 +28,12 @@
     @apply w-10 h-10 bg-gray-600 rounded-3xl mr-2 items-center justify-center inline-flex border border-white hover:bg-black duration-300 hover:scale-105
   }
 }
+
+@layer utilities {
+  .sections::before{
+    @apply block content-[''] border-b w-[0px] h-[2px]   
+  }
+  .sections::before:hover{
+    @apply block content-[''] border-gray-500 w-full h-[2px] duration-500    
+  }
+}
