@@ -14,6 +14,7 @@ export const SkillList = ({...props} : SkillListProps) => {
           <SkillItem
             key={props.skills.indexOf(skill)}
             href={skill.href}
+            icon={skill.icon}
             title={skill.title}
             status={skill.status}
             src={skill.src}

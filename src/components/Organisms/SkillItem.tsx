@@ -2,7 +2,8 @@ import { Card } from "../Atoms/Cards";
 import { LinkAtom } from "../Atoms/LinkAtom";
 
 export interface SkillItemProps {
-  href: string
+  href: string,
+  icon?: React.ReactNode
   src: string,
   status: string,
   title: string,
@@ -23,7 +24,10 @@ export const SkillItem = ({...props} : SkillItemProps) => {
         className="hover:text-black dark:hover:text-primary opacity-0 group-hover:opacity-100 duration-500"
         children={props.status}
         href={props.href}
-      />                        
+      />
+      <div>
+        {props.icon}                        
+      </div>
     </div>
   )
 }

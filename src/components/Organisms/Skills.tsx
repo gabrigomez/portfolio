@@ -37,13 +37,13 @@ export const Skills = () => {
       src: udemy,
       title: 'The Complete Ruby on Rails Developer Course',
       status: 'Em andamento',
-      href: 'https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/'
+      href: 'https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/',
     },
     {
       src: udemy,
       title: 'Curso Web Moderno Completo com JavaScript 2020',
       status: 'Certificado',
-      href: 'https://www.udemy.com/certificate/UC-39998402-6d77-4454-9d43-926719ec4091/'
+      href: 'https://www.udemy.com/certificate/UC-39998402-6d77-4454-9d43-926719ec4091/',
     },
     {
       src: udemy,
