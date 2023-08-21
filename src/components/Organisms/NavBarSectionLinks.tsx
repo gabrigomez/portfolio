@@ -11,7 +11,7 @@ export const NavBarSectionLinks = ({sections} : NavBarSectionLinksProps) => {
           <NavBarLink
             key={sections.indexOf(section)} 
             href={section.href}
-            className="text-primary font-bold dark:text-white cursor-pointer sections hover:sections"
+            className="text-primary font-bold dark:text-white cursor-pointer sections hover:sections relative"
             onClick={() => section.onClick}
             children={section.children}
           />
