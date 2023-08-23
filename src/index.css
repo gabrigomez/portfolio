@@ -4,7 +4,7 @@
 
 @layer components {
   .sections::before{
-    @apply absolute content-[''] border-b w-[0px] h-[2px] duration-300   
+    @apply absolute content-[''] border-b w-[0px] h-[2px]     
   }
   .sections::before:hover{
     @apply absolute content-[''] border-gray-500 w-full h-[2px]    
