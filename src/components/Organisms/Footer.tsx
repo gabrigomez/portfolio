@@ -1,3 +1,4 @@
+import React from 'react';
 import { FooterMolecule } from '../Molecules/FooterMolecule';
 
 export const Footer = () => {

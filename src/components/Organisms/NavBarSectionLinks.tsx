@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavBarLink, NavBarLinkProps } from "../Atoms/NavBarLink";
 interface NavBarSectionLinksProps {
   sections: Array<NavBarLinkProps>,

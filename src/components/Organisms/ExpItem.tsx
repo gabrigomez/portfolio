@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { LinkedinLogo } from "phosphor-react";
 import { Card } from "../Atoms/Cards";
 import { DescriptionAtom } from "../Atoms/DescriptionAtom";

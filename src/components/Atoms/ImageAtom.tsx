@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface ImageAtomProps {  
   className?: string,
   src: string,

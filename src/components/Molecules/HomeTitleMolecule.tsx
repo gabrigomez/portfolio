@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { HomeTitle } from "../Atoms/HomeTitle";
 import { ReactNode } from "react";
 import { HomeIcon } from "../Atoms/HomeIcon";

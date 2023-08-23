@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { GithubLogo, LinkedinLogo, UserList } from "phosphor-react";
 import { NavBarLink } from "../Atoms/NavBarLink";
 

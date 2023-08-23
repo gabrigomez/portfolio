@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Carousel, { ResponsiveType } from "react-multi-carousel";
 import { SkillItem, SkillItemProps } from "./SkillItem";
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Contact } from './components/Organisms/Contact';
 import { Exp } from './components/Organisms/Exp';
 import { Footer } from './components/Organisms/Footer';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import TrackVisibility from "react-on-screen";
 import { Languages } from "./Languages";
 import { TitleAtom } from "../Atoms/TitleAtom";

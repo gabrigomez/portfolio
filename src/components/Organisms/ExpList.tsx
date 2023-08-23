@@ -1,3 +1,4 @@
+import React from 'react';
 import { ExpItem, ExpItemProps } from "./ExpItem";
 
 interface ExpListProps {

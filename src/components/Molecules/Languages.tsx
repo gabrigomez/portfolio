@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { FaNodeJs } from "react-icons/fa";
 import { SiCypress, SiDjango, SiReact, SiRubyonrails, SiTailwindcss, SiTypescript, SiVuedotjs } from "react-icons/si";
 

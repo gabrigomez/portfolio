@@ -1,4 +1,5 @@
-import { FinnTheHuman } from "phosphor-react"
+import React from 'react';
+import { FinnTheHuman } from "phosphor-react";
 
 export const HomeIcon = () => {
   return (

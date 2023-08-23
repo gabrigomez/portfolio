@@ -1,3 +1,4 @@
+import React from 'react';
 import { MainMolecule } from '../Molecules/MainMolecule';
 import { ImageAtom } from '../Atoms/ImageAtom';
 import { InterestsMolecule } from '../Molecules/InterestsMolecule';

@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface CardImageProps {
   className: string,
   src: string

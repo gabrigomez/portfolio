@@ -1,8 +1,9 @@
+import React from 'react';
 import { Card } from '../Atoms/Cards';
 import Carousel from 'react-multi-carousel';
 
-import 'animate.css';
 import { ProjectItem, ProjectItemProps } from './ProjectItem';
+import 'animate.css';
 
 interface ProjectListProps {
   projects: Array<ProjectItemProps>,

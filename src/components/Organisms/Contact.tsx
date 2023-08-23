@@ -1,3 +1,4 @@
+import React from 'react';
 import { ImageAtom } from '../Atoms/ImageAtom';
 import { TitleAtom } from '../Atoms/TitleAtom';
 import { ContactListInfo } from './ContactListInfo';

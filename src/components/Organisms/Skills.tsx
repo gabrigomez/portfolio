@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Card } from '../Atoms/Cards/index';
 import { SkillList } from './SkillList';
 import { SkillsMolecule } from '../Molecules/SkillsMolecule';

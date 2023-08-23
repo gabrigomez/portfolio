@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { DescriptionAtom } from "../Atoms/DescriptionAtom";
 import { TitleAtom } from "../Atoms/TitleAtom";
 import { i18n } from "../../translate/i18n";

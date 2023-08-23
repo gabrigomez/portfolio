@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface CardTitleProps {
   title: string,
   className: string,
