@@ -81,14 +81,14 @@ export const NavBar = () => {
         />
         <img 
           alt="Brazil" 
-          className='h-5 w-5 mr-1 lg:h-8 lg:w-8 cursor-pointer' 
+          className='country-badges' 
           onClick={() => handleLanguage('pt-BR')} 
           src={Brazil} 
         />
         <img 
           alt="Usa" 
           src={Usa} 
-          className='h-5 w-5 lg:h-8 lg:w-8 cursor-pointer' 
+          className='country-badges' 
           onClick={() => handleLanguage('en-US')} 
         />              
         <div className='flex'>          
