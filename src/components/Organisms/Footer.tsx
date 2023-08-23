@@ -3,7 +3,7 @@ import { FooterMolecule } from '../Molecules/FooterMolecule';
 
 export const Footer = () => {
   return (
-    <footer className='flex p-10 justify-center text-black dark:text-white'>
+    <footer className='flex p-10 mb-10 justify-center text-black dark:text-white'>
       <FooterMolecule />
     </footer>
   )

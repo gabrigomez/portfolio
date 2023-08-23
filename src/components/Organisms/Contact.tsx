@@ -33,7 +33,7 @@ const contactList = [
 export const Contact = () => {
   return (
     <section className='flex w-full justify-center mb-4 text-white dark:text-black' id='contact'>
-      <TrackVisibility className='flex justify-center'>
+      <TrackVisibility className='flex w-full justify-center'>
         {({ isVisible }) =>
           <div className={isVisible ? "animate__animated animate__fadeIn w-full" : "none"}>
             <div className='flex flex-col md:flex-row justify-center bg-black dark:bg-slate-50 rounded-lg p-2 m-10 md:p-10 md:m-14'>
