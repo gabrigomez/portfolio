@@ -564,6 +564,7 @@ video {
   height: 2px;
   width: 0px;
   border-bottom-width: 1px;
+  transition-duration: 500ms;
   --tw-content: '';
   content: var(--tw-content);
 }
@@ -1211,6 +1212,7 @@ video {
   height: 2px;
   width: 0px;
   border-bottom-width: 1px;
+  transition-duration: 500ms;
   --tw-content: '';
   content: var(--tw-content);
 }
