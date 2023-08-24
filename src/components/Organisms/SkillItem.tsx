@@ -19,7 +19,7 @@ export const SkillItem = ({...props} : SkillItemProps) => {
         src={props.src}
       />
       <Card.CardTitle
-        className='text-lg mb-2 font-bold'
+        className='text-md md:text-lg mb-2 font-bold'
         title={props.title}
       />
       <LinkAtom

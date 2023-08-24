@@ -11,7 +11,7 @@ export const Main = () => {
       <div className='flex flex-col mt-32 sm:mt-8 p-2 sm:p-24 w-3/4 rounded-2xl mb-5'>
         <MainMolecule />
         <ImageAtom
-          className='w-68 h-68 mt-10 border-2 border-secondary rounded-full animate-updown'
+          className='w-68 h-68 mt-10 border border-primary rounded-full animate-updown'
           src={profile}
         />
         <InterestsMolecule />
