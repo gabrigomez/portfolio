@@ -13,10 +13,10 @@ export interface ProjectItemProps {
 
 export const ProjectItem = ({...props} : ProjectItemProps) => {
   return (
-    <div className='project-list-container group'>
+    <div className='project-list-container group w-10/12'>
       <Card.CardImage
         src={props.image} 
-        className='w-22 h-22 border-2 bg-white border-primary rounded-full mb-4' 
+        className='h-20 w-20 md:h-32 md:w-32 border-2 bg-white border-primary rounded-full mb-4' 
       />
       <Card.CardTitle 
         className='text-sm sm:text-xl md:text-2xl font-bold opacity-0 group-hover:opacity-100 duration-700'

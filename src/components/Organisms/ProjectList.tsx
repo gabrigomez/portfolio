@@ -30,7 +30,7 @@ export const ProjectList = ({projects} : ProjectListProps) => {
   };
 
   return (
-    <Card.Root className='flex flex-wrap w-4/5 justify-center text-primary dark:text-white'>
+    <Card.Root className='flex flex-wrap w-full xl:w-8/12 h-[300px] justify-center text-primary dark:text-white'>
       <Carousel responsive={responsive} className='w-full'>
         {projects.map((project) => {
           return (
