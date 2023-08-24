@@ -19,7 +19,7 @@ export const ExpItem = ({...props} : ExpItemProps) => {
       className='exp-container group'>          
         <Card.CardImage 
           src={props.src} 
-          className='border-2 border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
+          className='border border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
         />
         <Card.CardTitle 
           className='m-2 text-2xl md:text-4xl'
