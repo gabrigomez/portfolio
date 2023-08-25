@@ -32,6 +32,14 @@
     @apply absolute content-[''] border-gray-500 w-full h-[2px]    
   }
 
+  .exp-description:before {
+    @apply absolute content-[''] border-b-2 w-[0px] h-[32px]
+  }
+
+  .exp-description:before:hover{
+    @apply absolute content-[''] border-gray-500 w-full h-[32px]    
+  }
+
   .skills-container {
     @apply flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
     dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black
