@@ -41,7 +41,7 @@
   }
 
   .skills-container {
-    @apply flex flex-col items-center p-4 m-2 hover:bg-gray-200 h-80 md:h-96 
+    @apply flex flex-col items-center justify-center p-4 m-2 hover:bg-gray-200 h-80 md:h-96 
     dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black
   }
 
