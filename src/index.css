@@ -37,7 +37,7 @@
   }
 
   .exp-description:before:hover{
-    @apply absolute content-[''] border-blue-400 dark:border-gray-500 w-2/4 h-[120px] md:h-[192px]
+    @apply absolute content-[''] border-blue-500 dark:border-gray-500 w-2/4 h-[120px] md:h-[192px]
   }
 
   .skills-container {
