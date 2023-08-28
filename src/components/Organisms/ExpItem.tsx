@@ -15,13 +15,13 @@ export interface ExpItemProps {
 
 export const ExpItem = ({...props} : ExpItemProps) => {
   return (
-    <div className='exp-container group'>          
+    <div className='exp-container group exp-description hover:exp-description before:duration-500 relative'>          
       <Card.CardImage 
         src={props.src} 
         className='border border-solid border-white dark:border-primary h-20 w-20 md:h-36 md:w-36' 
       />
       <Card.CardTitle 
-        className='m-2 text-2xl md:text-4xl group-hover:exp-description hover:before:duration-500 relative'
+        className='m-2 text-2xl md:text-4xl'
         title={props.title}
       />
       <DescriptionAtom 

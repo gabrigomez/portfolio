@@ -33,11 +33,11 @@
   }
 
   .exp-description:before {
-    @apply absolute content-[''] border-b-2 w-[0px] h-[32px]
+    @apply absolute content-[''] border-b w-[0px] h-[120px] md:h-[192px]
   }
 
   .exp-description:before:hover{
-    @apply absolute content-[''] border-gray-500 w-full h-[32px]    
+    @apply absolute content-[''] border-blue-400 dark:border-gray-500 w-2/4 h-[120px] md:h-[192px]
   }
 
   .skills-container {
