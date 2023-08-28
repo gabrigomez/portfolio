@@ -18,10 +18,18 @@
     hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500
   }
 
+  .exp-description:before {
+    @apply absolute content-[''] border-b w-[0px] h-[120px] md:h-[192px]
+  }
+
+  .exp-description:before:hover{
+    @apply absolute content-[''] border-blue-500 dark:border-gray-500 w-2/4 h-[120px] md:h-[192px]
+  }
+
   .project-list-container {
     @apply flex flex-col items-center justify-center m-2 p-2 h-64 sm:h-64 md:h-72 lg:h-80   
-    w-11/12 lg:w-52 duration-300 rounded-2xl shadow-md
-    dark:shadow-gray-900 hover:bg-gray-200 dark:hover:bg-secondaryBg 
+    w-11/12 lg:w-52 duration-300 rounded-2xl shadow-md dark:shadow-gray-900 
+    hover:bg-gray-200 dark:hover:bg-secondaryBg 
   }
 
   .sections::before{
@@ -32,16 +40,8 @@
     @apply absolute content-[''] border-gray-500 w-full h-[2px]    
   }
 
-  .exp-description:before {
-    @apply absolute content-[''] border-b w-[0px] h-[120px] md:h-[192px]
-  }
-
-  .exp-description:before:hover{
-    @apply absolute content-[''] border-blue-500 dark:border-gray-500 w-2/4 h-[120px] md:h-[192px]
-  }
-
   .skills-container {
-    @apply flex flex-col items-center p-2 h-full m-2 hover:bg-gray-200
+    @apply flex flex-col items-center p-4 m-2 hover:bg-gray-200 h-80 md:h-96 
     dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black
   }
 
@@ -50,6 +50,7 @@
   }
 
   .social-icon {
-    @apply w-10 h-10 bg-gray-600 rounded-3xl mr-2 items-center justify-center inline-flex border border-white hover:bg-black duration-300 hover:scale-105
+    @apply w-10 h-10 bg-gray-600 rounded-3xl mr-2 items-center justify-center 
+    inline-flex border border-white hover:bg-black duration-300 hover:scale-105
   }
 }

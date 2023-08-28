@@ -10,7 +10,7 @@ interface SkillListProps {
 
 export const SkillList = ({...props} : SkillListProps) => {
   return (
-    <Carousel responsive={props.responsive} className='h-3/4'>
+    <Carousel responsive={props.responsive} className='flex'>
       {props.skills.map((skill) => {
         return (
           <SkillItem

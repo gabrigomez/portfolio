@@ -19,17 +19,17 @@ export const SkillItem = ({...props} : SkillItemProps) => {
         src={props.src}
       />
       <Card.CardTitle
-        className='text-md md:text-lg mb-2 font-bold'
+        className='text-md md:text-xl mb-2 h-32'
         title={props.title}
-      />
-      <LinkAtom
-        className="hover:text-black dark:hover:text-primary opacity-0 group-hover:opacity-100 duration-500"
-        children={props.status}
-        href={props.href}
       />
       <div>
         {props.icon}                        
       </div>
+      <LinkAtom
+        className="hover:text-black dark:hover:text-primary font-semibold opacity-0 group-hover:opacity-100 duration-500"
+        children={props.status}
+        href={props.href}
+      />
     </div>
   )
 }

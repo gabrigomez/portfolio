@@ -6,13 +6,13 @@ import { TitleAtom } from "../Atoms/TitleAtom";
 
 export const SkillsMolecule = () => {
   return (
-    <div>
+    <div className='mb-6'>
       <TitleAtom
         className="text-5xl md:text-6xl"
         children={i18n.t('titles.skills')}
       />
       <DescriptionAtom
-        className="mb-4 md:text-2xl"
+        className="md:text-2xl"
         children={i18n.t('skills.description')} 
       />
     </div>
