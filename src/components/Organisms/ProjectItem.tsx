@@ -13,14 +13,14 @@ export interface ProjectItemProps {
 
 export const ProjectItem = ({...props} : ProjectItemProps) => {
   return (
-    <div className='project-list-container group'>     
+    <div className='project-list-container proj-description hover:proj-description before:duration-500 after:duration-500 relative group'>     
       <Card.CardTitle 
-        className='text-md md:text-2xl font-bold opacity-60 group-hover:opacity-100 duration-700 mb-4'
-        title={props.title}
+        className='flex items-center text-md md:text-2xl mb-4 font-bold h-16'
+        title={props.title.toUpperCase()}
       />
        <Card.CardImage
         src={props.image} 
-        className='h-20 w-20 md:h-32 md:w-32 border bg-white border-primary rounded-full mb-4' 
+        className='h-20 w-20 md:h-32 md:w-32 mb-4 border bg-white border-primary rounded-full ' 
       />
       <div className='flex'>
         <LinkAtom 
