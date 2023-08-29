@@ -63,7 +63,7 @@
   }
 
   .skills-card-image {
-    @apply w-20 h-20 md:w-32 md:h-32 border border-primary rounded-full mb-3
+    @apply w-20 h-20 md:w-28 md:h-28 border border-primary rounded-full mb-3
   }
 
   .social-icon {
