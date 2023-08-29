@@ -19,10 +19,10 @@ export const SkillItem = ({...props} : SkillItemProps) => {
         src={props.src}
       />
       <Card.CardTitle
-        className='text-md md:text-xl mb-2 h-24 pt-4 border-y dark:border-gray-700 dark:group-hover:border-gray-900'
+        className='flex items-center text-md md:text-xl h-24 border-y dark:border-gray-700 dark:group-hover:border-gray-900'
         title={props.title}
       />
-      <div className='h-10'>
+      <div className='h-10 mt-4'>
         {props.icon}                        
       </div>
       <LinkAtom
