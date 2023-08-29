@@ -15,7 +15,7 @@ export const ProjectItem = ({...props} : ProjectItemProps) => {
   return (
     <div className='project-list-container proj-description hover:proj-description before:duration-500 after:duration-500 relative group'>     
       <Card.CardTitle 
-        className='flex items-center text-md md:text-2xl mb-4 font-bold h-16'
+        className='flex items-center text-md md:text-xl lg:text-2xl mb-4 font-bold h-16'
         title={props.title.toUpperCase()}
       />
        <Card.CardImage
