@@ -42,7 +42,8 @@
 
   .skills-container {
     @apply flex flex-col items-center justify-center p-4 m-2 hover:bg-gray-200 h-80 md:h-96 
-    dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black
+    dark:hover:bg-secondaryBg rounded-3xl shadow-lg dark:shadow-black border border-gray-200 
+    hover:border-white dark:border-slate-800 dark:hover:border-slate-300 duration-500
   }
 
   .skills-card-image {

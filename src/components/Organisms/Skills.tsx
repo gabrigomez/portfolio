@@ -78,7 +78,8 @@ export const Skills = () => {
       src: iff,
       title: 'Licenciatura em Letras',
       status: 'Concluído em 2020',
-      href: "https://portal1.iff.edu.br/nossos-campi/campos-centro/cursos-nova-interface/cursos-superiores/licenciatura-em-letras"
+      href: "https://portal1.iff.edu.br/nossos-campi/campos-centro/cursos-nova-interface/cursos-superiores/licenciatura-em-letras",
+      icon: <FaGraduationCap className='text-3xl rounded-full' />
     }
   ];
 
