@@ -32,13 +32,13 @@ export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
       <Card.Root className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
-        <div className='mb-8'>
+        <div className='flex flex-col items-center mb-8'>
           <TitleAtom 
-            className='text-5xl md:text-6xl'
+            className='sections-titles w-2/4 xl:w-1/4 text-5xl md:text-6xl'
             children={i18n.t('titles.exp')}
           />
           <DescriptionAtom
-            className='md:text-2xl'
+            className='md:text-2xl mt-2'
             children={i18n.t('exp.description')}
           />
         </div>

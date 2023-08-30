@@ -49,6 +49,13 @@
     hover:border-primary dark:hover:border-primary 
   }
 
+  .sections-titles {
+    @apply text-primary dark:text-white p-2 
+    border border-gray-300 dark:border-gray-900 rounded-md bg-gradient-to-r from-gray-100 to-gray-300 
+    dark:from-gray-900 dark:to-black tracking-wider 
+    shadow-sm shadow-gray-800 dark:shadow-gray-400
+  }
+
   .sections::before{
     @apply absolute content-[''] border-b w-[0px] h-[2px]     
   }

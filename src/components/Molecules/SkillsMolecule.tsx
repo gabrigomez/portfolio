@@ -6,13 +6,13 @@ import { TitleAtom } from "../Atoms/TitleAtom";
 
 export const SkillsMolecule = () => {
   return (
-    <div className='mb-6'>
+    <div className='flex flex-col items-center mb-6'>
       <TitleAtom
-        className="text-5xl md:text-6xl"
+        className="sections-titles text-5xl md:text-6xl w-2/4 xl:w-1/4"
         children={i18n.t('titles.skills')}
       />
       <DescriptionAtom
-        className="md:text-2xl"
+        className="md:text-2xl mt-2"
         children={i18n.t('skills.description')} 
       />
     </div>
