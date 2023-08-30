@@ -8,7 +8,7 @@ export const ProjectMolecule = () => {
   return (
     <div className='flex flex-col items-center'>
       <TitleAtom
-        className="font-title sections-titles w-11/12 text-5xl md:text-6xl"
+        className="font-title sections-titles xs:w-full w-11/12 text-5xl md:text-6xl"
         children={i18n.t('titles.projects').toUpperCase()}
       />
       <DescriptionAtom

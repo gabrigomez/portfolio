@@ -26,9 +26,13 @@ export const Skills = () => {
       items: 3
     },
     mobile: {
-      breakpoint: { max: 600, min: 0 },
+      breakpoint: { max: 600, min: 375 },
       items: 2
-    }
+    },
+    smallDevices: {
+      breakpoint: { max: 375, min: 0 },
+      items: 1
+    },
   };
 
   const skillsList = [
@@ -85,7 +89,7 @@ export const Skills = () => {
 
   return (
     <section className='flex justify-center w-full bg-gray-300 dark:bg-primaryBg' id='skills'>
-      <Card.Root className='text-primary dark:text-white w-full md:w-4/5 rounded-2xl p-4 md:p-16'>
+      <Card.Root className='text-primary dark:text-white w-full 2xl:w-4/5 rounded-2xl p-4 md:p-16'>
         <SkillsMolecule />        
         <SkillList skills={skillsList} responsive={responsive} />
       </Card.Root>
