@@ -14,7 +14,7 @@ export const MainMolecule = () => {
         children={i18n.t('main.banner')}
       />           
       <TitleAtom
-        className='text-3xl md:text-5xl xl:text-7xl mt-16 mb-2 font-semibold'
+        className='font-title text-3xl md:text-5xl xl:text-7xl mt-16 mb-2 font-semibold'
         children={i18n.t('main.title')}
       />          
       <DescriptionAtom

@@ -15,6 +15,10 @@ module.exports = {
         primary: '#0055d0',
         secondary: '#1c82ad',
       },
+      fontFamily: {
+        'body': ['Quicksand', 'sans-serif'],
+        'title': ['Alegreya Sans SC', 'sans-serif'],
+      },
       keyframes: {
         updown: {
           '0%': {

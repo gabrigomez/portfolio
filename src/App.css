@@ -4,10 +4,6 @@
   --bg-color: rgba(0, 0, 0, 0.562);
 }
 
-* {
-  font-family: 'Rajdhani', sans-serif;
-}
-
 body {
   max-height: 100vh;
 }

@@ -8,8 +8,8 @@ export const ProjectMolecule = () => {
   return (
     <div className='flex flex-col items-center'>
       <TitleAtom
-        className="sections-titles w-4/5 text-4xl md:text-6xl"
-        children={i18n.t('titles.projects')}
+        className="font-title sections-titles w-11/12 text-5xl md:text-6xl"
+        children={i18n.t('titles.projects').toUpperCase()}
       />
       <DescriptionAtom
         className="md:text-2xl mt-2"

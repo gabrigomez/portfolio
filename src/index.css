@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
 @layer components {
   .country-badges {
     @apply h-5 w-5 mr-1 lg:h-8 lg:w-8 cursor-pointer hover:border-black border rounded-full duration-500
