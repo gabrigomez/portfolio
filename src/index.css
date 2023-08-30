@@ -45,7 +45,8 @@
   .project-list-container {
     @apply flex flex-col items-center m-2 p-2 h-64 sm:h-64 md:h-72 lg:h-80   
     w-11/12 lg:w-52 duration-300 rounded-2xl shadow-md dark:shadow-gray-900 
-    hover:bg-gray-200 dark:hover:bg-secondaryBg 
+    hover:bg-gray-200 dark:hover:bg-secondaryBg border border-gray-100 dark:border-gray-800 
+    hover:border-primary dark:hover:border-primary 
   }
 
   .sections::before{
