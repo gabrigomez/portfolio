@@ -9,7 +9,7 @@ export const MainMolecule = () => {
     <div className='flex flex-col text-primary dark:text-white items-center mb-4'>
       <TitleAtom
         className='text-white text-md md:text-2xl mx-2 p-3 
-        border border-primary bg-gradient-to-r from-blue-500 to-primary tracking-wider 
+        border border-primary dark:border-gray-500 bg-gradient-to-r from-blue-500 to-primary tracking-wider 
         shadow-md shadow-black dark:shadow-gray-600'
         children={i18n.t('main.banner')}
       />           
