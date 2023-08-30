@@ -8,7 +8,7 @@ export const ProjectMolecule = () => {
   return (
     <div className='flex flex-col items-center'>
       <TitleAtom
-        className="sections-titles w-3/4 text-4xl md:text-6xl"
+        className="sections-titles w-4/5 text-4xl md:text-6xl"
         children={i18n.t('titles.projects')}
       />
       <DescriptionAtom

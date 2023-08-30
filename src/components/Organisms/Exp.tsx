@@ -1,15 +1,12 @@
 import React from 'react';
-import { i18n } from '../../translate/i18n';
 import TrackVisibility from 'react-on-screen';
-
 import { Card } from '../Atoms/Cards';
-import { DescriptionAtom } from '../Atoms/DescriptionAtom';
 import { ExpList } from './ExpList';
-import { TitleAtom } from '../Atoms/TitleAtom';
 
 import adeptly from '../../assets/adeptly.jpeg';
 import tracklift from '../../assets/Tracklift.jpeg';
 import 'animate.css';
+import { ExpMolecule } from '../Molecules/ExpMolecule';
 
 const expList = [
   {
@@ -32,16 +29,7 @@ export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
       <Card.Root className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
-        <div className='flex flex-col items-center mb-8'>
-          <TitleAtom 
-            className='sections-titles w-2/4 xl:w-1/4 text-5xl md:text-6xl'
-            children={i18n.t('titles.exp')}
-          />
-          <DescriptionAtom
-            className='md:text-2xl mt-2'
-            children={i18n.t('exp.description')}
-          />
-        </div>
+        <ExpMolecule />
         <div className='flex justify-center w-full'>
           <TrackVisibility className='w-full flex justify-center'>
             {({ isVisible }) =>
