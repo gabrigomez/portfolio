@@ -64,7 +64,7 @@ export const NavBar = () => {
   }
 
   return (
-    <nav className={`p-2 fixed w-full top-0 z-10 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
+    <nav className={`p-2 fixed w-full top-0 z-10 border-y border-white dark:border-gray-800 duration-500 ${theme ? '' : ''} ${scrolled ? 'bg-black' : ''}`}>
       <div className='flex place-content-around items-center py-2'>
         <HomeTitleMolecule 
           activeLink={activeLink} 
