@@ -20,7 +20,8 @@ export const messages = {
         description: 'Here are my courses and certifications'
       },
       exp: {
-        description: 'This is my journey as a Dev (until now)'
+        description: 'This is my journey as a Dev (until now)',
+        expTime: 'Set 2023 - Now'
       },
       projects: {
         description: 'Here are some of my personal projects'

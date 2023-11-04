@@ -8,6 +8,7 @@ import tracklift from '../../assets/Tracklift.jpeg';
 import uticket from '../../assets/uticket.png';
 import 'animate.css';
 import { ExpMolecule } from '../Molecules/ExpMolecule';
+import { i18n } from '../../translate/i18n';
 
 const expList = [
   {
@@ -26,7 +27,7 @@ const expList = [
   },
   {
     description: "Front-end developer",
-    expTime: "Set 2023 - Atual",
+    expTime: i18n.t('exp.expTime'),
     href: "https://www.linkedin.com/company/uticket/",  
     src: uticket,
     title: "Uticket",
