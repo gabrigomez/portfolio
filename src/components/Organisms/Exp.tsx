@@ -5,6 +5,7 @@ import { ExpList } from './ExpList';
 
 import adeptly from '../../assets/adeptly.jpeg';
 import tracklift from '../../assets/Tracklift.jpeg';
+import uticket from '../../assets/uticket.png';
 import 'animate.css';
 import { ExpMolecule } from '../Molecules/ExpMolecule';
 
@@ -22,6 +23,13 @@ const expList = [
     href: "https://www.linkedin.com/company/tracklift/",  
     src: tracklift,
     title: "Tracklift",
+  },
+  {
+    description: "Front-end developer",
+    expTime: "Set 2023 - Atual",
+    href: "https://www.linkedin.com/company/uticket/",  
+    src: uticket,
+    title: "Uticket",
   }
 ]
 
