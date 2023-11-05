@@ -10,18 +10,18 @@ import { i18n } from '../../translate/i18n';
 
 const expList = [
   {
-    description: "Front-end developer/Quality Assurance",
-    expTime: "Ago 2021 - Jan 2023",
-    href: "https://www.linkedin.com/company/adeptly/",  
-    src: adeptly,
-    title: "Adeptly",
-  },
-  {
     description: "Front-end developer",
     expTime: "Jun 2021 - Ago 2021",
     href: "https://www.linkedin.com/company/tracklift/",  
     src: tracklift,
     title: "Tracklift",
+  },
+  {
+    description: "Front-end developer/Quality Assurance",
+    expTime: "Ago 2021 - Jan 2023",
+    href: "https://www.linkedin.com/company/adeptly/",  
+    src: adeptly,
+    title: "Adeptly",
   },
   {
     description: "Front-end developer",
