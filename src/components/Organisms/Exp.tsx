@@ -1,12 +1,10 @@
 import React from 'react';
-import TrackVisibility from 'react-on-screen';
 import { Card } from '../Atoms/Cards';
 import { ExpList } from './ExpList';
 
 import adeptly from '../../assets/adeptly.jpeg';
 import tracklift from '../../assets/Tracklift.jpeg';
 import uticket from '../../assets/uticket.png';
-import 'animate.css';
 import { ExpMolecule } from '../Molecules/ExpMolecule';
 import { i18n } from '../../translate/i18n';
 
@@ -37,17 +35,9 @@ const expList = [
 export const Exp = () => {
   return (
     <section className='flex w-full justify-center bg-gray-300 dark:bg-primaryBg' id='exp'>
-      <Card.Root className='flex flex-col w-full p-4 md:w-2/3 md:p-16 rounded-2xl text-primary dark:text-white'>
+      <Card.Root className='flex flex-col w-full items-center p-4 md:w-full md:p-16 rounded-2xl text-primary dark:text-white'>
         <ExpMolecule />
-        <div className='flex justify-center w-full'>
-          <TrackVisibility className='w-full flex justify-center'>
-            {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : "none"}>                
-                <ExpList exps={expList} />
-              </div>
-            }
-          </TrackVisibility>
-        </div>
+        <ExpList exps={expList} />
       </Card.Root>
     </section>
   )

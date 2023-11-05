@@ -16,7 +16,7 @@
   }
 
   .exp-container {
-    @apply flex flex-col items-center h-4/5 w-2/4 md:h-96 md:w-64 p-4 m-1 
+    @apply flex flex-col items-center h-full w-11/12 md:h-96 p-4 m-1 
     rounded-lg shadow-white dark:shadow-gray-800 shadow-sm
     hover:bg-gray-200 dark:hover:bg-secondaryBg duration-500
   }

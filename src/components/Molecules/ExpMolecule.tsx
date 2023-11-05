@@ -6,7 +6,7 @@ export const ExpMolecule = () => {
   return (
     <div className='flex flex-col items-center mb-8'>
       <TitleAtom 
-        className='sections-titles font-title xs:w-2/4 xl:w-1/4 text-5xl md:text-6xl'
+        className='sections-titles font-title w-2/4 text-5xl md:text-6xl'
         children={i18n.t('titles.exp').toUpperCase()}
       />
       <DescriptionAtom
