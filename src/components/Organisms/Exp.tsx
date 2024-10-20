@@ -12,11 +12,18 @@ import { i18n } from "../../translate/i18n";
 
 const expList = [
   {
+    description: "Software engineer",
+    expTime: i18n.t("exp.expTime.expStoneTime"),
+    href: "https://www.linkedin.com/company/stone-co/",
+    src: stone,
+    title: "Stone",
+  },
+  {
     description: "Front-end developer",
-    expTime: "Jun 2021 - Ago 2021",
-    href: "https://www.linkedin.com/company/tracklift/",
-    src: tracklift,
-    title: "Tracklift",
+    expTime: i18n.t("exp.expTime.expUticketTime"),
+    href: "https://www.linkedin.com/company/uticket/",
+    src: uticket,
+    title: "Uticket",
   },
   {
     description: "Front-end developer/Quality Assurance",
@@ -27,17 +34,10 @@ const expList = [
   },
   {
     description: "Front-end developer",
-    expTime: i18n.t("exp.expTime.expUticketTime"),
-    href: "https://www.linkedin.com/company/uticket/",
-    src: uticket,
-    title: "Uticket",
-  },
-  {
-    description: "Software engineer",
-    expTime: i18n.t("exp.expTime.expStoneTime"),
-    href: "https://www.linkedin.com/company/stone-co/",
-    src: stone,
-    title: "Stone",
+    expTime: "Jun 2021 - Ago 2021",
+    href: "https://www.linkedin.com/company/tracklift/",
+    src: tracklift,
+    title: "Tracklift",
   },
 ];
 
