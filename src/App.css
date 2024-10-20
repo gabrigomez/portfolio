@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --primary: #0081C9;
+  --primary: #0081c9;
   --bg-color: rgba(0, 0, 0, 0.562);
 }
 
@@ -14,7 +14,7 @@ html {
 }
 
 section {
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
 }
 
 p {
@@ -24,7 +24,7 @@ p {
 .App {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 1fr 800px 800px 800px auto auto ;
+  grid-template-rows: 1fr 800px 800px 800px auto auto;
 
   text-align: center;
 }
@@ -35,7 +35,6 @@ p {
 
 @media only screen and (max-width: 768px) {
   .App {
-    grid-template-rows: 1fr 600px 600px 600px auto auto ;
+    grid-template-rows: 1fr 600px 600px 600px auto auto;
   }
 }
-
